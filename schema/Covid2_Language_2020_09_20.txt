@@ -1,0 +1,380 @@
+version: 4
+topic 1 Language Specialist V4
+"""
+Consider the language used in the passage for these questions.
+"""
+
+
+1.01 cl Which of the following appears in the bolded text to the left? Check all that apply, or none, and highlight the part of the passage in which you see each.
+
+1.01.01 Metaphorical Language
+"""
+**Metaphorical language**(references another object to which it is not related, similes)
+is often good writing, and not problematic. But sometimes it is used to color an event in a biased way, especially in negative metaphors of disease, filth, or invasion. You will have a chance later to say if any metaphors or analogies you find are misleading or just fine.
+
+> E.g.She ran **as fast as a river**.
+
+*This includes both metaphors (“He’s an eagle on the field”) and similes (He’s like an eagle on the field”). *
+"""
+1.01.02 Exaggeration
+"""
+**Exaggeration**(hyperbole) is sometimes used for comic effect. You will get a chance later to say how misleading you think the exaggeration is.
+
+> E.g. This new salesperson made an **enormous** difference in the store’s revenue.
+
+*The word “enormous” is an exaggeration. Although it is possible that the salesperson made a difference in revenue, the word “enormous” is probably an exaggeration. *
+"""
+1.01.03 Scandal
+"""
+**Scandal** (i.e. portrayal of immoral actions/situations/behavior), or treating discoveries as scandalous, is often used to distract from more important issues or to encourage certain emotional reactions to an event or discovery (e.g. outrage, disgust).
+
+> E.g. It turned out that our principal was **secretly dating** our history teacher.
+
+*Dating in secret is seen as somewhat immoral, or the reason for dating in secret is usually immoral. The author could have instead phrased it in a way that does not imply scandal.*
+"""
+1.01.04 Emotional tone (including expletives)
+"""
+**Emotional tones** are emotional expressions such as humor, threat, joy, and expletives.
+> E.g. **Screw** Stanford, they’re all full of themselves.
+
+*The expletive is an example of emotional tone.*
+
+> E.g. We were **furious** that they stole the axe.
+
+*The word “furious” conveys emotions.*
+
+You will have a chance later to say just how problematic the emotional tone is; it is sometimes but not always inappropriate.
+"""
+1.01.05 Shock or surprise
+"""
+Including exclamation points or other form of conveying surprise.
+> E.g. I **couldn’t believe** that he had shaved off all of his hair.
+
+*The "couldn't believe" shows surprise that the person shaved off his hair. This potentially alters how readers view the fact that the male subject of the sentence shaved his head.*
+"""
+1.01.06 Slang
+"""
+**Slang** (Informal terms that are usually spoken and not written.)
+> E.g. After the game, the student section **rushed the field**.
+
+*“Rushing the field” is a slang term that refers to when fans (usually from the winning side) go onto the field after a sports match.*
+"""
+1.01.07 Typos
+"""
+**Typos** (Misspelling of words or punctuation).
+> E.g. They were **mispelling** words left and rite.
+
+*Typos include spelling a word wrong as well as using the wrong homophone (rite/right, your/you’re, etc.).*
+"""
+1.01.08 Bad grammar
+"""
+> E.g. Even though they were scared.
+
+*This is bad grammar because it is not a complete sentence.*
+
+> E.g. **Us** are going to the concert together.
+
+*The “us” should be a “we”.*
+
+> E.g. Each one of us **are** leaving on a different day.
+
+*Words like “each” and “every” are singular.*
+"""
+1.01.09 Misleading or confusing sentence structure
+"""
+**Misleading or confusing sentence structure** (Unclear about what the sentence is saying).
+> E.g. After getting lunch, Max went to the market to get dinner but he had had breakfast there already.
+
+*This sentence does not make a lot of sense, and the wording of the second half, especially the use of the word “but” could be misleading.*
+"""
+1.01.10 Other unnecessary or misleading coloring of language
+"""
+> E.g. The young, female senator proposed naive legislation.
+"""
+1.01.11 Colorful but not misleading in any way
+"""
+**Colorful but not misleading in any way** (Irrelevant details that do not affect the information).
+> E.g. The **very short** lady kept yelling at us for ruining her carpet.
+"""
+1.01.12 Other problem with language
+"""
+If you feel like something is wrong with the language but cannot quite place it into the above categories, feel free to check this box and highlight the relevant portion!
+"""
+1.01.13 Nothing wrong with language
+
+options 1.01.13 highlight=False
+
+
+if 1.01.01, then 1.02
+if 1.01.02, then 1.03
+if 1.01.03, then 1.04 #revision
+if 1.01.04, then 1.05
+if 1.01.04, then 1.06
+if 1.01.06, then 1.09
+if 1.01.06, then 1.10
+if 1.01.07, then 1.11
+if 1.01.08, then 1.11
+if 1.01.09, then 1.11
+if 1.01.10, then 1.13
+
+#ordinal
+1.02 mc The use of metaphorical language (e.g., metaphors of war, disease, infection, invasion, alien, decay, etc) is....
+"""
+- Example of Metaphorical Language **NOT AT ALL excessive/inappropriate**
+>The wind **howled**.
+
+*In this case, the sentence is suggesting that the wind was very strong and loud. Although it is subjective how appropriate this use of metaphor is, since wind occasionally makes noises that sound like howls, this seems more on the appropriate side of the scale.*
+
+- Example of Metaphorical Language **CONSIDERABLY excessive/inappropriate**
+>Her stomach felt like a **raging river**.
+
+*In this case, the raging river comparison conveys that her stomach is unsettled or that she is not feeling well, but it is an exaggeration and does not really help to give us additional information.*
+
+This question, as well as other questions with scales of appropriateness, is subjective, and your highlights and responses will be aggregated with those of others before the results of the question are inputted to the final score.
+"""
+
+1.02.01 EXTREMELY excessive/inappropriate
+1.02.02 CONSIDERABLY excessive/inappropriate
+1.02.03 SOMEWHAT excessive/inappropriate
+1.02.04 MILDLY excessive/inappropriate
+1.02.05 NOT AT ALL excessive/inappropriate
+
+options 1.02.* highlight=False
+options 1.02 alpha_distance="ordinal"
+
+
+#ordinal
+1.03 mc How much does the exaggeration misrepresent reality?
+"""
+- Example of Exaggeration that **Does Not/Minorly misrepresents reality**
+> She was **parched**; she hadn’t had any water to drink that day.
+
+*Parched may be an exaggeration, but it does not really misrepresent anything.*
+
+- Example of Exaggeration that **Considerably misrepresents reality**
+> The **ant was the size of Texas**.
+
+*There is no ant that exists that is actually the size of Texas. While conveying that the ant was large in size, it does not give us an accurate description of how big the ant was. However, it can also be said that this is not a misrepresentation since it is common knowledge that ants are small.*
+
+This question, as well as other questions with scales of appropriateness, is subjective, and your highlights and responses will be aggregated with those of others before the results of the question are inputted to the final score.
+
+"""
+1.03.01 Enormous misrepresentation
+1.03.02 Considerable misrepresentation
+1.03.03 Some misrepresentation
+1.03.04 Minor misrepresentation
+1.03.05 The exaggeration could not possibly mislead anyone
+
+options 1.03.* highlight=False
+options 1.03 alpha_distance="ordinal"
+
+
+#ordinal
+1.04 mc To what degree is the scandalous content being used to distract from other important and relevant issues?
+1.04.01 Totally
+"""There's no news, here. This content is only meant to embarrass or distract."""
+1.04.02 Very much
+1.04.03 Moderately
+1.04.04 Somewhat
+1.04.05 Slightly or not at all
+"""The content might be slightly scandalous, but it is relevant and important."""
+
+
+options 1.04.* highlight=False
+options 1.04 alpha_distance="ordinal"
+
+
+1.05 mc How strong is the emotional tone?
+1.05.01 Very strong
+1.05.02 Somewhat strong
+1.05.03 Moderate
+1.05.04 Mild
+1.05.05 Very mild
+
+
+options 1.05.* highlight=False
+options 1.05 alpha_distance="ordinal"
+
+#categorical
+1.06 cl Which of the following emotions does the passage express? Check all that apply.
+"""
+- Example of **Fear, Threat**
+> Her hands were **clammy and slightly shaky**, and she could **feel her heart pounding** as she turned to face **the most feared lawyer** in the state.
+
+*The highlighted sections all clue the reader into the fact that woman is nervous and scared, which best fits into the category of “Fear, Threat”. *
+
+- Example of **Outrage, Indignation/Contempt**:
+> We were **furious** that they stole the axe that was in our possession.
+
+*In this case, it is clear that the author is conveying anger. However, some may say that this is outrage and indignation, but others may think that it is closer to contempt.*
+
+If you feel as if a different emotion is expressed, you can select “Other” and write in that emotion in the follow-up question.
+"""
+1.06.01 Disgust
+1.06.02 Contempt
+1.06.03 Outrage, indignation
+1.06.04 Fear, threat
+1.06.05 Vindictiveness, spite
+1.06.06 Sadness
+1.06.07 Enthusiasm, joy
+1.06.08 Other
+
+options 1.06 require_one_or_more=True
+
+if 1.06.08, then 1.07
+
+1.07 tx What other emotion does the passage express?
+options 1.07.* highlight=False
+
+#ordinal
+1.08 mc Consider the thing represented as shocking/surprising. Do they mention any similar or comparison cases to give context for whether this is genuinely surprising?
+1.08.01 Yes, clear comparison cases show this is genuinely shocking
+1.08.02 One clear comparison case suggesting this is shocking in comparison
+1.08.03 A clear comparison given which is not very different
+1.08.04 No comparison or context cases given
+options 1.08.04 highlight=False
+options 1.10 alpha_distance="ordinal"
+
+#ordinal
+1.09 mc How appropriate is the slang?
+"""
+- Example of **more appropriate slang**:
+> After the game, the student section **rushed the field**.
+
+*This use of slang is on the more appropriate side, as it is a commonly known and used term for sports fans of the winning team going onto the field to celebrate with the team.*
+
+- Example of **less appropriate slang**:
+> She is **gonna** go to the market.
+
+*In this case, the slang word “gonna” is often how people say “going to” when speaking, however in texts it is only appropriate to use the latter term.*
+
+This question, as well as all other questions with scales of appropriateness, is subjective, and your highlights and responses will be aggregated with those of others before the results of the question are inputted to the final score.
+"""
+1.09.01 Very inappropriate
+"""
+Racial slurs, slang that is usually only spoken.
+"""
+1.09.02 Somewhat inappropriate
+1.09.03 Moderately inappropriate
+1.09.04 Mildly inappropriate
+1.09.05 Completely appropriate
+
+options 1.09.* highlight=False
+options 1.09 alpha_distance="ordinal"
+
+#ordinal
+1.10 mc Is the slang used to denigrate a group or perspective?
+"""
+To denigrate means to belittle, criticize, or attack.
+"""
+1.10.01 Yes, definitely
+1.10.02 Yes, somewhat
+1.10.03 Maybe
+1.10.04 No
+
+options 1.10.* highlight=False
+options 1.10 alpha_distance="ordinal"
+
+#ordinal
+1.11 mc Do the errors in the writing make understanding the text more difficult?
+"""
+This question only pops up if you highlighted something for Typos/ Bad Grammar/Misleading or Confusing Sentence Structures in Question 1.
+
+A typo of punctuation is often only "slightly" confusing, whereas misleading or confusing sentence structure can encourage the opposite meaning.
+
+- Example of **Not At All/Mildly confusing**:
+> The authors were **mispelling** words left and **rite**.
+
+*These typos are not too serious and it is still clear what the sentence is trying to convey.*
+> Each one of us **are** leaving on a different day.
+
+*Again, even though the grammar is incorrect, it is still possible to understand the sentence.*
+
+- Example of **Considerably confusing**:
+>She walked her dogs then came back home where her grandchildren were. When she arrived, she gave them a bath.
+
+*The second sentence is confusing because it is unclear whether she is giving her dogs a bath or her grandchildren a bath.*
+
+This question, as well as other questions with scales of appropriateness, is subjective, and your highlights and responses will be aggregated with those of others before the results of the question are inputted to the final score.
+"""
+1.11.01 Extremely
+1.11.02 Considerably
+1.11.03 Somewhat
+1.11.04 Mildly
+1.11.05 Not at all
+
+options 1.11.* highlight=False
+options 1.11 alpha_distance="ordinal"
+
+#ordinal
+1.12 mc Does the passage contain a particularly neutral, circumspect, or measured account of a frequently heated issue? If so, please offer them kudos. #ordinal
+1.12.01 Nope
+1.12.02 Good job!
+1.12.03 Great job!
+1.12.04 Excellent job! (artfully and fairly presenting a very difficult subject)
+
+options 1.12.01 highlight=False
+options 1.12.01 case_numbers=False
+options 1.12 alpha_distance="ordinal"
+
+#ordinal
+1.13 mc How misleading or otherwise problematic is the colorful language?
+1.13.01 Very
+1.13.02 Somewhat
+1.13.03 Mildly
+1.13.04 Very Mildly
+1.13.05 Not at all
+
+options 1.13.* highlight=False
+options 1.13 alpha_distance="ordinal"
+
+#ordinal
+1.14 mc How difficult was this task for you, on the whole?
+1.14.01 1: Easiest thing I've ever done in a learning situation
+1.14.02 2
+1.14.03 3
+1.14.04 4: Neither easy nor difficult
+1.14.05 5
+1.14.06 6
+1.14.07 7 Hardest thing I've ever done in a learning situation
+
+options 1.14.* highlight=False
+options 1.14 alpha_distance="ordinal"
+
+#ordinal
+1.15 mc How confident are you about your answers, on the whole?
+1.15.01 1: I was guessing randomly for everything
+1.15.02 2
+1.15.03 3
+1.15.04 4: Somewhat confident
+1.15.05 5
+1.15.06 6
+1.15.07 7: 100% certain about all my answers
+
+
+options 1.15.* highlight=False
+options 1.15 alpha_distance="ordinal"
+
+
+
+1.16 tx Is there anything about the interface, instructions, or question wording that could be improved to make tasks like this easier?
+options 1.16.* highlight=False
+
+
+
+options 1.01.* case_numbers=False
+options 1.02.* case_numbers=False
+options 1.03.* case_numbers=False
+options 1.04.* case_numbers=False
+options 1.05.* case_numbers=False
+options 1.06.* case_numbers=False
+options 1.07.* case_numbers=False
+options 1.08.* case_numbers=False
+options 1.09.* case_numbers=False
+options 1.10.* case_numbers=False
+options 1.11.* case_numbers=False
+options 1.12.* case_numbers=False
+options 1.13.* case_numbers=False
+options 1.14.* case_numbers=False
+options 1.15.* case_numbers=False
+options 1.16.* case_numbers=False

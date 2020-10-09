@@ -1,0 +1,122 @@
+Version: 4
+
+Topic 1 Quote Source Relevance
+
+1.01 cl Why is the source being quoted?
+1.01.01 What the source has said or written is newsworthy by itself. It is important, interesting, and/or meaningful to some newsreaders.
+""" Example: The CEO of PharmaDrug Says They Have a Vaccine """
+1.01.02 The source is offering commentary, explanation, judgment, or context about something newsworthy.
+""" Example: ...a researcher unaffiliated with the project questioned the studies methodology """
+options 1.01.* highlight=False
+
+1.02 mc Does the experience/knowledge/position of the quoted source qualify them to speak or write such claims?
+1.02.01 Yes, definitely
+1.02.02 Yes
+1.02.03 Somewhat, yes
+1.02.04 Barely
+1.02.05 There's no way to know based on the information given
+1.02.06 Not really
+1.02.07 Not at all
+1.02.08 Their experience/knowledge/position disqualifies them from making such claims
+options 1.02.* highlight=False
+options 1.02 alpha_distance="ordinal"
+
+1.03 mc Is the source anonymous or unnamed?
+1.03.01 Yes
+1.03.02 No
+options 1.03.* highlight=False
+
+if 1.03.01, then 1.04
+
+1.04 cl Has the author indicated why the source is unnamed?
+1.04.01 No
+1.04.02 To protect national security
+1.04.03 To protect an ongoing investigation/inquiry
+1.04.04 To protect the privacy of victims
+1.04.05 To protect the privacy of family members
+1.04.06 So the source can speak freely or candidly
+1.04.07 Because the source is not supposed to be speaking to reporters
+1.04.08 Because the source is a whistleblower
+1.04.09 Other (please highlight)
+options 1.04.01 highlight=False
+
+
+1.05 cl Highlight all the ways the source is described ...(check & highlight all that apply)
+1.05.01 Honorific (e.g. Mr. Mrs., Dr.)
+1.05.02 Title, role, or position (e.g. "Professor of Paleontology")
+1.05.03 First name (e.g. "Jon")
+1.05.04 Middle name or initial
+1.05.05 Last name (e.g. "Snow")
+1.05.06 Other description of person (e.g. "Boston's favorite ice cream heiress")
+1.05.07 Organization (e.g. "from House Stark" or "of the University of Lichfield")
+1.05.08 Description of Organization (i.e. "a Springfield institution")
+1.05.09 Only a vague description (e.g. "experts say ...")
+
+1.06 cl Using the highlighter options below, indicate which portions of the bolded text are:
+1.06.01 Direct quote
+1.06.02 Paraphrase
+
+1.07 cl Using the highlight options below, indicate how the quotes/paraphrases were gathered by the reporter:
+1.07.01 Spoken directly to the reporter
+1.07.02 Spoken into a video and/or audio recording device
+1.07.03 Heard or read by third party.
+1.07.04 Written public material (e.g. book, social media, etc.)
+1.07.05 Written private correspondence (e.g. email)
+1.07.06 Can't tell
+
+options 1.07.06 highlight=False
+
+1.08 mc How are the quoted sources' ideas important to the article?
+1.08.01 Central idea/s of article.
+1.08.02 Provide important support to central claim of the article.
+1.08.03 Provide non-essential context for article.
+1.08.04 Irrelevant to central claim
+1.08.05 Conflicts with claims/arguments of other sources in the article.
+1.08.06 Conflicts somewhat with claims/arguments of the author, but is not refuted.
+1.08.07 Conflicts strongly with claims/arguments of the author, but is not refuted.
+1.08.08 Conflicts somewhat with claims/arguments of the author, and is refuted.
+1.08.09 Conflicts strongly with claims/arguments of the author, and is refuted.
+
+options 1.08.* highlight=False
+options 1.08 alpha_distance="ordinal"
+
+#ordinal
+1.10 mc How difficult was this task for you, on the whole?
+1.10.01 1: Easiest thing I've ever done in a learning situation
+1.10.02 2
+1.10.03 3
+1.10.04 4: Neither easy nor difficult
+1.10.05 5
+1.10.06 6
+1.10.07 7 Hardest thing I've ever done in a learning situation
+
+options 1.10.* highlight=False
+options 1.10 alpha_distance="ordinal"
+
+#ordinal
+1.11 mc How confident are you about your answers, on the whole?
+1.11.01 1: I was guessing randomly for everything
+1.11.02 2
+1.11.03 3
+1.11.04 4: Somewhat confident
+1.11.05 5
+1.11.06 6
+1.11.07 7: 100% certain about all my answers
+
+
+options 1.11.* highlight=False
+options 1.11 alpha_distance="ordinal"
+
+
+
+1.12 tx Is there anything about the interface, instructions, or question wording that could be improved to make tasks like this easier?
+options 1.12.* highlight=False
+
+options 1.01.* case_numbers=False
+options 1.02.* case_numbers=False
+options 1.03.* case_numbers=False
+options 1.04.* case_numbers=False
+options 1.05.* case_numbers=False
+options 1.06.* case_numbers=False
+options 1.07.* case_numbers=False
+options 1.08.* case_numbers=False

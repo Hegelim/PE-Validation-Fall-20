@@ -1,0 +1,293 @@
+version: 4
+
+topic 1 Evidence Specialist
+
+#Instructions: In this section, consider whether the authors have adequate evidence for their causal claims. Highlight the parts of the article that illustrate your answers. You can see more of the article for context by dragging the button below the text.
+
+#Section above dividing line will typically be 2, 5, or 7 questions depending on how earlier questions are answered (determining relevance of later questions). The section below would typically be 4, but sometimes only 1 (if the article describes no pattern).
+
+#Correlation vs. Causation
+#categorical
+1.01 cl Is a general or singular causal claim made? Highlight the section(s) that supports your answer.
+"""
+Here we ask what type of causal claim is made, because different types of causal claims can demand different types of evidence.
+
+- **General Causal Claims** are most common in science; they are *generalized statements* about *general patterns* of causality.
+> E.g. Smoking cigarettes causes cancer.
+
+- **Singular Causal Claims** are more anecdotal and thus often harder to prove.
+> E.g. Smoking cigarettes gave my uncle cancer. (It could also have been his career as a construction worker breathing asbestos.)
+
+- Just because it’s true in the general case doesn’t necessarily mean it’s true in every singular case. *"Seatbelts save lives in car accidents."* (a general claim) can be true even if there are some singular cases where seatbelts fail to save people in car accidents.
+
+- If you say **No causal claim made**, you do not have to highlight anything because you are saying something is absent. It’s tricky to highlight an absence!
+"""
+1.01.01 General Causation (In general, X causes Y.)
+1.01.02 Singular Causation (In this case, A caused/is causing B)
+1.01.03 No causal claim made
+options 1.01.03 highlight=False
+
+if 1.01.01, then 1.02
+if 1.01.02, then 1.02
+
+
+
+#categorical
+1.02 cl What evidence is given for the primary causal claim? Select all that apply.
+"""
+This is one of the most difficult questions in the whole system, but it’s also one of the most valuable. It’s a checklist, which means you select as many as you see, and highlight the relevant passage for each one that you select.
+"""
+1.02.01 Correlation
+"""
+A **correlation** is a regular pattern between two variables, typically observed in observational studies.
+> Oceanographers have observed that in areas where the ocean is warmer, there is a higher density of squid.
+
+**A correlation by itself cannot determine the causal link**: *Warm oceans could cause more squid, more squid could cause warmer oceans, or a third unknown variable could cause both, with no causal link at all between squids and ocean temperature. However, a correlation can be a useful piece of evidence in conjunction with other kinds of evidence.*
+
+Example of **mistakenly using correlation** as sufficient evidence for causation:
+> Every time the car’s turn-signal blinks, the car turns either left or right a moment later. So, the blinker must be causing the car to turn.
+"""
+1.02.02 Cause precedes effect
+"""
+**Cause always precedes effect**, but in many cases, it’s hard to tell which came first.
+> For example, there is a debate about whether small amounts of alcohol are healthy or unhealthy. Some studies found that people who drank a glass of wine a day were actually healthier than those who did not drink any alcohol (a correlation). However, others have contended that this could be because some people stop drinking alcohol when it harms their already poor health. Because we don’t know which came first, quitting alcohol or poor health, it’s difficult to know which direction the cause goes. So if we know that supposed cause does precede the supposed effect, that’s a weak piece of evidence for the causal claim.
+
+Of course, **A preceding B is not adequate evidence by itself to conclude that A causes B**. The death of the dinosaurs probably isn’t the cause of the printing press, even though it clearly came first.
+"""
+1.02.03 The correlation appears across multiple independent contexts
+"""
+When a **correlation** is observed **across multiple independent contexts**, it suggests the pattern **isn’t just an artifact of something weird happening in one context**.
+> For example, the finding that brain damage correlates with concussions in soccer, as well as football, was a strong piece of evidence that this pattern wasn’t something particular to football, but particular to concussions.
+"""
+1.02.04 A plausible mechanism is proposed
+"""
+If there’s a **plausible mechanism** by which A could cause B, that makes it more likely that A causes B, especially in conjunction with other kinds of evidence.
+> For example, if we know that SSRIs lead to more free serotonin in the brain, and serotonin leads to a better mood, that is a plausible mechanism by which SSRIs might reduce depression.
+
+If a **plausible mechanism** is so **obvious** it seems unnecessary to state explicitly, then you may still mark this box.
+> For example, one article argues that higher rates of opiate prescription lead to more opiate addictions. The mechanism by which this might happen is clear without being stated explicitly in the article; someone needs to start taking opiates to be at risk of opiate addiction, and the commonest reason to start is because of a prescription for pain.
+
+Sometimes we have strong evidence for causality even in absence of a plausible mechanism, especially in medicine.
+"""
+1.02.05 An experimental study was conducted (natural experiments OK)
+"""
+**Experimental studies** typically involve a **deliberate manipulation of a variable**, such that part of the sample (typically half) received one treatment and part received a different treatment. Samples receiving different treatments are called Conditions. There can be more than two conditions in one study.
+"""
+1.02.06 There is a clear dose-response curve
+"""
+Do the quantities of the hypothesized cause correlate with the quantity, severity, or frequency of the hypothesized effect?
+"""
+1.02.07 Experts are cited
+"""
+Are any experts cited **not involved in** the original study? If so, highlight the expert and what they say. If an author of a study being described is quoted, you don’t need to highlight what they say.
+"""
+1.02.08 Other evidence
+"""
+If some type of evidence is given which is not captured in any of the types above, select “Other Evidence.”
+"""
+1.02.09 No evidence given
+"""
+If you say No evidence given, you don’t have to highlight anything because it’s an absence.
+"""
+options 1.02.09 highlight=False
+options 1.02.* case_numbers=False
+
+
+if 1.02.08, then 1.03
+
+
+
+
+
+1.03 tx What other evidence is given to support the causal claim?
+"""
+You see this question because in Question 2 you said there was some **“Other evidence”** given, something that didn’t fall neatly into any of the answer options.
+
+Briefly describe what type that other evidence.
+
+If you marked this box by accident, say which of the given types you think it is or go back and undo the “Other Evidence” box for Question 2.
+"""
+options 1.03.* highlight=False
+
+
+
+
+if 1.02.01, then 1.04
+if 1.02.05, then 1.04
+#ordinal
+1.04 mc If there was evidence of correlation or causation observed, was the sample on which it was observed representative of the broader population about which general conclusions are being made?
+"""If the article has evidence to support claims about a causal relationship relevant to people, cars, or basketball teams, we want to know if the people, cars, or basketball teams observed represent most people, cars, or basketball teams. """
+1.04.01 Very representative (Also choose this if entire population is examined)
+1.04.02 Fairly representative
+1.04.03 Somewhat representative
+1.04.04 Slightly representative
+1.04.05 Not at all representative
+1.04.06 Can't tell; not enough info
+
+options 1.04.* highlight=False
+options 1.04 alpha_distance="ordinal"
+
+
+
+
+
+if 1.02.05, then 1.05
+#ordinal
+1.05 mc Was there an appropriate control condition for the experiment? If so, highlight section.
+"""
+Experimental studies measure the effect of some treatment 'x' on a sample 'y' of population 'Y.' To measure the effect of 'x' on 'y', half of the sample 'y' must be measured while experiencing 'NOT x'. For instance, we could measure the effect of 'x' ice cream on the happiness of a sample 'y' of people. But we could only understand the effect of the ice cream on the happiness of 'y' if half of the sample 'y' reported their happiness without ice cream. The situation of 'NOT ice cream' is often called the 'control condition.' And the portion of 'y' that does not receive 'x' (i.e. the treatment) is called the 'control group.'
+
+If you say **No control/Can’t tell**, you don’t have to highlight anything.
+"""
+1.05.01 Appropriate control
+1.05.02 Questionably appropriate control
+1.05.03 Inappropriate control
+1.05.04 No control
+1.05.05 Can't tell; not enough info
+options 1.05.04 highlight=False
+options 1.05.05 highlight=False
+options 1.05.* case_numbers=False
+options 1.05 alpha_distance="ordinal"
+
+
+
+
+
+
+
+if 1.05.01, then 1.06
+if 1.05.02, then 1.06
+if 1.05.03, then 1.06
+#categorical
+1.06 mc Were participants assigned to the 'control' and 'treatment' groups via a random process?
+1.06.01 Yes
+1.06.02 No
+1.06.03 Can't tell; not enough info
+options 1.06.02 highlight=False
+options 1.06.03 highlight=False
+options 1.06.* case_numbers=False
+
+
+
+if 1.02.*, then 1.07
+if 1.02.*, then 1.08
+1.07 tx What is the best alternative explanation you can think of that could lead to the same set of evidence?
+options 1.07.* highlight=False
+
+#ordinal
+1.08 mc How likely is your alternative explanation for the same evidence, as compared to the author’s explanation?
+1.08.01 Much more likely than the author’s
+1.08.02 Somewhat more likely
+1.08.03 Equally likely
+1.08.04 Somewhat less likely
+1.08.05 Much less likely than the author's
+options 1.08.* highlight=False
+options 1.08 alpha_distance="ordinal"
+
+
+
+
+##################################################################
+
+#Signal, Noise, and Statistical & Systematic Uncertainty
+
+1.09 mc Is data presented as evidence for a pattern (e.g. A relationship between two variables)?
+1.09.01 Yes
+1.09.02 Maybe
+1.09.03 No
+options 1.09.03 highlight=False
+options 1.09.* case_numbers=False
+
+if 1.09.01, then 1.10
+if 1.09.02, then 1.10
+if 1.09.01, then 1.11
+if 1.09.02, then 1.11
+
+
+
+
+#ordinal
+1.10 mc Given the information you have, how likely is it that the apparent pattern is a result of statistical error (sometimes called random error or random chance)?
+"""
+**Statistical error** arises when a sample, just by chance, happens to be significantly different in some way from the general population it is supposed to represent.
+
+This is most common when a sample is quite small.
+> Example: 3 out of 4 students agree that we should serve lasagna for every meal. But maybe that pattern isn't true for all 5,000 students. We only sampled (i.e. asked) four students if they supported the policy.
+
+"""
+1.10.01 Extremely Likely
+1.10.02 Somewhat Likely
+1.10.03 Neither Likely nor Unlikely
+1.10.04 Somewhat Unlikely
+1.10.05 Very Unlikely
+options 1.10.* highlight=False
+options 1.10 alpha_distance="ordinal"
+
+
+
+
+#ordinal
+1.11 mc Given the information you have, how likely is it that the apparent pattern is a result of some systematic error (a systematic bias in the collection or evaluation of data that could not be cancelled out by simply collecting more data in the same way)?
+"""
+**Systematice errors** and biases arise when we collect and analyze data in biased ways. If a politician asks everyone on her website to fill out an online poll indicating whether they will vote for her or her opponent, that poll will not be an accurate reflection of the broader voting public. And that method will never provide a good measure of the voters' intentions no matter how many people complete the poll.
+
+"""
+
+
+1.11.01 Extremely Likely
+1.11.02 Somewhat Likely
+1.11.03 Not Sure
+1.11.04 Somewhat Unlikely
+1.11.05 Very Unlikely
+options 1.11.* highlight=False
+options 1.11 alpha_distance="ordinal"
+
+
+#Provisionality of Science
+
+
+
+#ordinal
+1.12 mc Does the author suggest in any way that further evidence might improve our understanding of the topics discussed in the passage?
+1.12.01 Yes, explicitly
+1.12.02 Yes, implicitly
+1.12.03 I can't tell
+1.12.04 No, not at all
+options 1.12.03 highlight=False
+options 1.12.04 highlight=False
+options 1.12.* case_numbers=False
+options 1.12 alpha_distance="ordinal"
+
+
+
+#ordinal
+1.14 mc How difficult was this task for you, on the whole?
+1.14.01 1: Easiest thing I've ever done in a learning situation
+1.14.02 2
+1.14.03 3
+1.14.04 4: Neither easy nor difficult
+1.14.05 5
+1.14.06 6
+1.14.07 7 Hardest thing I've ever done in a learning situation
+
+options 1.14.* highlight=False
+options 1.14 alpha_distance="ordinal"
+
+#ordinal
+1.15 mc How confident are you about your answers, on the whole?
+1.15.01 1: I was guessing randomly for everything
+1.15.02 2
+1.15.03 3
+1.15.04 4: Somewhat confident
+1.15.05 5
+1.15.06 6
+1.15.07 7: 100% certain about all my answers
+
+
+options 1.15.* highlight=False
+options 1.15 alpha_distance="ordinal"
+
+
+
+1.16 tx Is there anything about the interface, instructions, or question wording that could be improved to make tasks like this easier?
+options 1.16.* highlight=False

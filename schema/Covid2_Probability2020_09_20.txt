@@ -1,0 +1,207 @@
+version: 4
+topic 1 Probability Specialist
+
+#Appropriate Calibration of Confidence
+#In this section, consider whether the text appropriately deals with uncertainty and probability. Highlight the parts of the article that illustrate your answers.
+
+#ordinal
+1.01 mc Does the text make any claims with great confidence? Highlight the relevant part.
+"""
+Some keywords include: Never, always, 100% sure, impossible, definitely…
+> E.g. For certain types of questions, answers that people rate as "99% certain" turn out to be wrong 40% of the time.
+"""
+
+1.01.01 Yes
+1.01.02 Maybe
+1.01.03 No
+options 1.01.03 highlight=False
+options 1.01.* case_numbers=False
+options 1.01 alpha_distance="ordinal"
+
+if 1.01.01, then 1.02
+if 1.01.02, then 1.02
+
+
+#ordinal
+1.02 mc To what extent does the confidence seem justified?
+"""Did the author state reasons why he/she made the claim?"""
+1.02.01 Completely justified
+1.02.02 Mostly justified
+1.02.03 Somewhat justified
+1.02.04 Slightly justified
+1.02.05 Not at all justified
+
+options 1.02.* highlight=False
+options 1.02 alpha_distance="ordinal"
+
+
+#ordinal
+#1.04 mc Does the text/author take a source less seriously because they acknowledge uncertainty? If so, highlight the #relevant section.
+#1.04.01 Yes, explicitly
+#1.04.02 Yes, implicitly
+#1.04.03 No
+#options 1.04.03 highlight=False
+#options 1.04.* case_numbers=False
+#options 1.04 alpha_distance="ordinal"
+
+#ordinal
+1.05 mc Does the text acknowledge that their favored theory is in any way uncertain? If so, highlight the relevant section.
+1.05.01 Yes, explicitly
+"""
+> E.g. Not sure, probably, possibly, maybe, potentially,...
+"""
+1.05.02 Yes, implicitly
+"""
+> E.g. with words like "could," "might," etc.
+"""
+1.05.03 No
+
+options 1.05.03 highlight=False
+options 1.05.* case_numbers=False
+options 1.05 alpha_distance="ordinal"
+
+
+1.06 mc Are any numbers given?
+1.06.01 No
+1.06.02 Yes, one number
+1.06.03 Yes, multiple numbers
+options 1.06.01 highlight=False
+options 1.06.* case_numbers=False
+
+if 1.06.02, then 1.07
+if 1.06.03, then 1.07
+if 1.06.02, then 1.10
+if 1.06.03, then 1.10
+
+1.07 mc Since a number is given, is a comparison number (i.e. a baseline number) for a similar case given for context?
+1.07.01 No numbers given
+1.07.02 Number or percentage offered, but no baseline comparison number given
+"""In neither of the two following examples do we have enough information to know how many people are in each group. Example_1: One thousand more people climbed Mt. Kilimanjaro this year compared to last year.
+Example_2: Fifty percent more people enjoy chocolate ice cream than enjoy vanilla ice cream."""
+1.07.03 Baseline number given
+1.07.04 Very different comparison number given for contrast
+1.07.05 Similar comparison number given for context (e.g. for previous year or nearby place)
+options 1.07.01 highlight=False
+options 1.01.* case_numbers=False
+
+#Signal, Noise, and Statistical & Systematic Uncertainty
+
+#ordinal
+#1.07 mc Is any data presented as evidence for a pattern (e.g. a relationship between two variables)?
+#1.07.01 Yes, explicitly
+#1.07.02 Yes, implicitly
+#1.07.03 No
+#options 1.07.03 highlight=False
+options 1.07.* case_numbers=False
+options 1.07 alpha_distance="ordinal"
+
+#if 1.07.01, then 1.08
+#if 1.07.02, then 1.08
+#if 1.07.01, then 1.09
+#if 1.07.02, then 1.09
+
+#ordinal
+#1.08 mc Could the apparent pattern be a result of a systematic error in data collection or processing?
+#1.08.01 Extremely Likely
+#1.08.02 Somewhat Likely
+#1.08.03 Neither Likely Nor Unlikely
+#1.08.04 Somewhat Unlikely
+#1.08.05 Very Unlikely
+#options 1.08.* highlight=False
+#options 1.08 alpha_distance="ordinal"
+
+
+#ordinal
+#1.09 mc Could the apparent pattern be a result of unsystematic, statistical variation or error (random noise)?
+#1.09.01 Extremely Likely
+#1.09.02 Somewhat Likely
+#1.09.03 Neither Likely Nor Unlikely
+#1.09.04 Somewhat Unlikely
+#1.09.05 Very Unlikely
+#options 1.09.* highlight=False
+#options 1.09 alpha_distance="ordinal"
+
+
+
+
+
+#ordinal
+1.10 mc Does the text make a specific point estimate as if their probability estimate was precisely correct? (e.g. no conditional words like “about,” “approximately,” or confidence intervals)
+1.10.01 Explicitly
+1.10.02 Implicitly
+1.10.03 No
+options 1.10.03 highlight=False
+options 1.10.* case_numbers=False
+options 1.10 alpha_distance="ordinal"
+
+#Provisionality of Science
+
+#ordinal
+1.11 mc Does the text acknowledge that additional evidence might shift our understanding of the topics discussed in the article?
+1.11.1 Yes, explicitly
+1.11.2 Yes, implicitly
+1.11.3 I can't tell
+1.11.4 No, not at all
+options 1.11.03 highlight=False
+options 1.11.04 highlight=False
+options 1.11.* case_numbers=False
+options 1.11 alpha_distance="ordinal"
+
+if 1.11.1, then 1.12
+if 1.11.2, then 1.12
+
+#categorical
+1.12 cl Does the text acknowledge the possibility of additional evidence that would... (check all that apply):
+1.12.01 Change the claim fundamentally
+"""
+Complete negation of a previous claim.
+"""
+1.12.02 Challenge the claim
+"""
+Provides evidence that the previous claim might be wrong.
+"""
+1.12.03 Add evidence to the claim
+"""
+Provide support to a previous claim.
+"""
+1.12.04 Illuminate further aspects of the claim
+"""
+Provide sights on other aspects that haven’t been discussed.
+"""
+1.12.05 None of the above
+
+options 1.12.05 highlight=False
+options 1.12.* case_numbers=False
+options 1.12 alpha_distance="ordinal"
+
+#ordinal
+1.14 mc How difficult was this task for you, on the whole?
+1.14.01 1: Easiest thing I've ever done in a learning situation
+1.14.02 2
+1.14.03 3
+1.14.04 4: Neither easy nor difficult
+1.14.05 5
+1.14.06 6
+1.14.07 7 Hardest thing I've ever done in a learning situation
+
+options 1.14.* highlight=False
+options 1.14 alpha_distance="ordinal"
+
+#ordinal
+1.15 mc How confident are you about your answers, on the whole?
+1.15.01 1: I was guessing randomly for everything
+1.15.02 2
+1.15.03 3
+1.15.04 4: Somewhat confident
+1.15.05 5
+1.15.06 6
+1.15.07 7: 100% certain about all my answers
+
+
+options 1.15.* highlight=False
+options 1.15 alpha_distance="ordinal"
+
+
+
+1.16 tx Is there anything about the interface, instructions, or question wording that could be improved to make tasks like this easier?
+options 1.16.* highlight=False

@@ -1,0 +1,198 @@
+version: 4
+
+topic 1 Holistic Evaluation of Article
+
+#Read through the whole article and consider the questions below.
+
+#categorical
+1.01 mc What type of article is this?
+1.01.01 News report
+1.01.02 Feature article/In depth analysis
+1.01.03 Opinion piece/Editorial/Op Ed
+1.01.04 Sponsored content
+1.01.05 Letter to the Editor
+1.01.06 Interview
+1.01.07 Hyper-Partisan
+1.01.08 Listicle
+"""Example: 5 Reasons I Wash My Hair Daily, 10 Ways to Get Your Crush's Attention, etc."""
+1.01.09 Other/Can't tell
+options 1.01.* highlight=False
+options 1.01.* case_numbers=False
+
+if 1.01.09, then 1.02
+
+1.02 tx  You said it was some “Other” type of article. What type of article is it?
+options 1.02.* highlight=False
+
+1.03 cl What is the article's topic area? (check all that apply)
+1.03.01 U.S. Events
+1.03.02 World Events
+1.03.03 Politics
+1.03.04 Science
+1.03.05 Health
+1.03.06 Business
+1.03.07 Tech
+1.03.08 Celebrity
+1.03.09 Sports
+1.03.10 Arts
+1.03.11 Lifestyle (food, fashion, travel, etc.)
+1.03.12 Other
+options 1.03.* highlight=False
+
+if 1.03.12, then 1.04
+
+1.04 tx You said an “Other” topic was discussed in the article. What was the topic?
+options 1.04.* highlight=False
+
+
+#nominal
+1.05 mc Before carefully reading the article, would you have been inclined to agree or disagree with its point of view?
+
+"""Definition: a 'point of view' is a particular attitude or way of considering a matter
+"""
+1.05.01 Strongly Agree with the article's point of view
+1.05.02 Somewhat Agree
+1.05.03 Neutral
+1.05.04 Somewhat Disagree
+1.05.05 Strongly Disagree with the article's point of view
+options 1.05.* highlight=False
+
+1.06 cl What kind of information does the article include?  (Check all that apply.)
+1.06.01 Arguments
+1.06.02 Proposed explanation(s)
+1.06.03 Neutral descriptions of events
+1.06.04 Quotes
+1.06.05 Scientific study or discovery
+1.06.06 Human interest story
+""" Human interest stories might be fun, interesting, or emotionally stimulating to read, but they usually don't provide information that could be important to readers' lives."""
+1.06.07 Potentially controversial or flawed information
+1.06.08 Emotional or biased presentation
+options 1.06.* highlight=False
+
+#ordinal
+1.07 mc Given what you know about the world, how *credible* does the article seem to you, overall?
+1.07.01 Very credible
+1.07.02 Fairly credible
+1.07.03 Somewhat credible
+1.07.04 Slightly credible
+1.07.05 Not at all credible
+options 1.07.* highlight=False
+options 1.07 alpha_distance="ordinal"
+
+#ordinal
+1.08 mc Given what you know about the world, how *biased* does the article seem to you, overall?
+1.08.01 Extremely biased
+1.08.02 Very biased
+1.08.03 Somewhat biased
+1.08.04 Mildly biased
+1.08.05 Not at all biased
+options 1.08.* highlight=False
+options 1.08 alpha_distance="ordinal"
+
+If 1.08.01, then 1.09
+If 1.08.02, then 1.09
+If 1.08.03, then 1.09
+If 1.08.04, then 1.09
+
+1.09 cl  What kind of bias is apparent in the article? Check all that apply.
+1.09.01 Right partisan
+1.09.02 Left partisan
+1.09.03 Elitist
+1.09.04 Populist
+1.09.05 Class/Economic status
+1.09.06 Gender/Sexuality
+1.09.07 Race/Ethnicity
+1.09.08 Age/Generational
+1.09.09 Other
+options 1.09.* highlight=False
+
+#categorical
+1.10 cl How would you describe the approach of the article? (Check all that apply.)
+1.10.01 Neutral description of a recent or ongoing event
+1.10.02 Report of what some person, body, or group said
+1.10.03 Evaluation/analysis of a recent or ongoing event
+1.10.04 Proposed explanation of a phenomenon or event
+1.10.05 Other
+options 1.10.* highlight=False
+
+#ordinal
+1.11 mc Does the article’s title/headline match the text?
+1.11.01 Yes, without exaggeration (no clickbait)
+1.11.02 Yes, but with some exaggeration/clickbaitiness
+1.11.03 Yes, but with a lot of exaggeration/clickbaitiness
+1.11.04 The text does not support the claim made in the title at all (pure clickbait)
+options 1.11.* highlight=False
+options 1.11 alpha_distance="ordinal"
+
+#ordinal
+1.12 mc Does the article exaggerate the importance of a relatively minor event, person, or group?
+1.12.01 Enormously
+1.12.02 Quite a bit
+1.12.03 Somewhat
+1.12.04 Slightly
+1.12.05 Not at all
+options 1.12.* highlight=False
+options 1.12 alpha_distance="ordinal"
+
+#ordinal
+1.13 mc How likely is this article to affect anyone’s behavior or beliefs?
+1.13.01 Very Likely
+1.13.02 Somewhat Likely
+1.13.03 Don’t Know
+1.13.04 Somewhat Unlikely
+1.13.05 Very Unlikely
+options 1.13.* highlight=False
+options 1.13 alpha_distance="ordinal"
+
+1.14 mc Are there claims in the article that seem suspicious or wrong?
+"""Use the case flags at the top right of your highlight to number each unique claim that is suspicious."""
+1.14.01 No
+1.14.02 Yes (Please highlight them.)
+options 1.14.01 highlight=False
+
+if 1.14.02, then 1.15
+
+1.15 cl What is/are the problem/s with the suspicious claim/s?
+""" Advanced Users: If you highlighted more than one suspicious claim in the previous question, match the material you're highlighting in this question with the case numbers of the suspicious claims you already identified. """
+1.15.01 The claim needs a fact check before readers can trust it.
+1.15.02 The claim needs some more credible source/s to corroborate it.
+1.15.03 The author needs to more specifically describe the source making (or supporting) the claim so readers know how to evaluate the source's credibility?
+1.15.04 Other
+
+if 1.15.04, then 1.16
+
+
+1.16 tx You said there was some other reason the claim/s were suspicious. Please tell us more.
+options 1.16.* highlight=False
+
+#ordinal
+1.17 mc How difficult was this task for you, on the whole?
+1.17.01 1: Easiest thing I've ever done in a learning situation
+1.17.02 2
+1.17.03 3
+1.17.04 4: Neither easy nor difficult
+1.17.05 5
+1.17.06 6
+1.17.07 7 Hardest thing I've ever done in a learning situation
+
+options 1.17.* highlight=False
+options 1.17 alpha_distance="ordinal"
+
+#ordinal
+1.18 mc How confident are you about your answers, on the whole?
+1.18.01 1: I was guessing randomly for everything
+1.18.02 2
+1.18.03 3
+1.18.04 4: Somewhat confident
+1.18.05 5
+1.18.06 6
+1.18.07 7: 100% certain about all my answers
+
+
+options 1.18.* highlight=False
+options 1.18 alpha_distance="ordinal"
+
+
+
+1.19 tx Is there anything about the interface, instructions, or question wording that could be improved to make tasks like this easier?
+options 1.19.* highlight=False

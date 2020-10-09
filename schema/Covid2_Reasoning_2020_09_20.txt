@@ -1,0 +1,246 @@
+Version: 4
+
+topic 1 Reasoning Specialist
+
+#categorical
+1.01 cl Does the bold-faced passage contain... (check all that apply):
+1.01.01 Estimates of the likelihood/probability or frequency of an event (past, present, or future)
+1.01.02 An evaluative judgment (claims about something being good or bad)
+1.01.03 Other misleading reasoning
+1.01.04 An effective critique of a reasoning error made by someone else
+1.01.05 Arguments or quotes from 2 or more sides
+1.01.06 None of the above
+
+options 1.01.* highlight=False
+options 1.01.* case_numbers=False
+
+if 1.01.01, then 1.02
+if 1.01.02, then 1.03
+if 1.01.03, then 1.06
+
+#categorical
+1.02 cl Does the argument contain any of the following misleading forms of reasoning? Check all that apply.
+1.02.01 Availability Heuristic
+"""
+Taking something as common because instances of it are easy to think of, when in fact it is not common
+> E.g. After reading articles about lottery winners, you start to overestimate your own likelihood of winning the jackpot. You start spending more money than you should each week on lottery tickets.
+
+*Reading about more people winning lotteries doesn’t increase the likelihood of you winning it. *
+"""
+1.02.02 Stereotyping
+"""
+Assuming that an individual or case has certain properties simply because they are a member of a group associated with those properties.
+> E.g. All people with Asian heritage are good at math.
+
+*It’s true that many people with Asian heritage are good at math, but many dislike it. *
+"""
+1.02.03 Hindsight Bias
+"""
+Treating past ignorance as foolish simply because now we know more.
+> E.g. Taylor Swift may have been experiencing the Hindsight Bias when she wrote the lyrics: ‘I knew you were trouble when you walked in.’
+
+*Since the song is about someone she had a relationship with, we can infer that she actually did not think the person would be so troublesome. If she did, then she wouldn’t have entered into a relationship with this person.*
+
+![Taylor Swift and Hindsight Bias](http://www.psychyogi.org/wp-content/uploads/2014/10/37969857-e1414318776439.jpg)
+"""
+1.02.04 Gambler's Fallacy
+"""
+The idea that if things happened one way before, they will happen differently next time to balance things out.
+> E.g. Consider a series of 10 coin flips that have all landed with the "heads" side up. Under the Gambler's Fallacy, a person might predict that the next coin flip is more likely to land with the "tails" side up.
+
+*The likelihood of a fair coin turning up heads is always 50%. Each coin flip is an independent event, which means that any and all previous flips have no bearing on future flips.*
+"""
+1.02.05 Other misleading reasoning about probability or frequency
+"""
+This category is a catch-all for other kinds of misleading reasoning about probability or frequency. There are lots of ways to go wrong in this domain. If you see an issue that isn’t captured in any of the specific items above, flag it now! We’ll ask you later about just how misleading it is.
+"""
+1.02.06 None of these
+
+options 1.02.06 highlight=False
+options 1.02.* case_numbers=False
+
+
+if 1.02.01, then 1.07
+if 1.02.02, then 1.07
+if 1.02.03, then 1.07
+if 1.02.04, then 1.07
+if 1.02.05, then 1.07
+if 1.02.05, then 1.08
+
+
+
+
+
+#categorical
+1.03 cl Does the argument contain any of the following misleading forms of reasoning? Check all that apply.
+1.03.01 Just World Fallacy
+"""
+Arguing that something must be just because it is the way society works/has worked.
+> E.g. "The inequalities in the world just prove who deserves good things and who deserves poverty."
+> In fact, inequalities may result from unfair policies or events.
+"""
+1.03.02 Good Old Days Fallacy
+"""
+The idea that things in the past were much better than the present in some unspecific way, or without evidence.
+"""
+1.03.03 Naturalistic Fallacy
+"""
+Inferring something is good because it is natural.
+> E.g. Nature gives people diseases and sickness; therefore, it is morally wrong to interfere with nature and treat sick people with medicine.
+"""
+1.03.04 Sunk Cost Fallacy
+"""
+Arguing for continued investment because so much is already invested so much in something, even if more investment may not help.
+> E.g. I know this relationship isn’t working anymore and that we’re both miserable. No marriage. No kids. No steady job. But I’ve been with him for 7 years, so I better stay with him.
+
+*It’s been 7 years of suffering, if you don’t do anything, the number will likely keep growing.*
+"""
+1.03.05 Other appeals to biases
+1.03.06 No appeals to biases
+
+options 1.03.06 highlight=False
+options 1.03.* case_numbers=False
+
+if 1.03.01, then 1.07
+if 1.03.02, then 1.07
+if 1.03.03, then 1.07
+if 1.03.04, then 1.07
+if 1.03.05, then 1.07
+if 1.03.05, then 1.08
+
+
+
+
+#categorical
+1.06 cl Does the argument contain any of the following misleading forms of reasoning? Check all that apply.
+1.06.01 Begging the Question –– Circular Reasoning
+"""
+Drawing a conclusion that is just a restatement of their question, without further evidence or argument.
+> E.g. The reason everyone wants the new "Hyperventilated Elmo" doll is because it's the most popular toy of the season!
+
+*Doesn't actually explain it –– ‘everyone wants’ means exactly ‘the most popular’.*
+"""
+
+1.06.02 False Dilemma
+"""
+Presenting a complicated choice as if there were only two options).
+> E.g. We can either have policy A or policy B. Choose one or the other.
+
+*In fact, Policies C, D, E, and more are also available.*
+"""
+
+1.06.03 Straw Man Argument
+"""
+Presenting a counter-argument as a weaker, more foolish or more extreme version of the real counterargument.
+> E.g. After Will said that we should put more money into health and education, Warren responded by saying that he was surprised that Will hates our country so much that he wants to leave it defenseless by cutting military spending.
+
+"""
+
+1.06.04 Distraction from Issue –– A "Red Herring"
+"""
+Addressing a different issue than originally proposed in the article.
+> E.g. A: "Hey, what's with all this junk food you bought? You're always railing at me about eating healthy." B: "Don't fuss -- it was on sale."
+
+*Whether or not it’s on sale has nothing to do with eating unhealthy food.*
+"""
+
+1.06.05 Equivocation
+"""
+Using a key term in more than one way without noting the change in meaning.
+> E.g. The priest told me I should have more **faith**. I have **faith** that my children will do well in school this year. Therefore, the priest should be happy with me.
+
+*The term **faith** used by the priest, was probably meant in the religious sense of demonstrating trust in the religion's higher power, which is different from trusting your kids' performance in school.*
+"""
+
+1.06.06 Slippery Slope Argument
+"""
+The worry that one small change will lead to a major change.
+> E.g. If you break your diet and have one cookie tonight, you will just want to eat 10 cookies tomorrow, and before you know it, you will have gained back the 15 pounds you lost.
+"""
+
+1.06.07 Appeal to Ignorance
+"""
+Arguing something is true because they haven't found evidence against it.
+> E.g. No one has provided real evidence ruling out the existence of ghosts. Therefore, ghosts probably exist. ... I've never heard of x. No one has ever heard of x. Therefore, x cant' be real.
+
+*Absence of evidence is only sometimes evidence of absence.*
+"""
+
+1.06.08 Before therefore because (Post hoc ergo propter hoc)
+"""
+Implying that merely because X came before Y, X must have caused Y.
+>E.g. Two months after the document was leaked, the Senator withdrew from the race.
+""""
+
+1.06.09 False Equivalence
+"""
+Implying that two things are the same when they are not.
+>E.g. Both teams committed multiple fouls in the competitive match. The home team had 25 penalties against them, while the visitors received multiple (two) penalties for their multiple careless and disrespectful violations of well-established league rules.
+""""
+
+1.06.10 Other logical fallacy
+
+1.06.11 None of these logical fallacies
+
+options 1.06.11 highlight=False
+options 1.06.* case_numbers=False
+
+if 1.06.01, then 1.07
+if 1.06.02, then 1.07
+if 1.06.03, then 1.07
+if 1.06.04, then 1.07
+if 1.06.05, then 1.07
+if 1.06.06, then 1.07
+if 1.06.07, then 1.07
+if 1.06.08, then 1.07
+if 1.06.09, then 1.07
+if 1.06.10, then 1.07
+if 1.06.10, then 1.08
+
+#ordinal
+1.07 mc How misleading is the argument?
+"""This question is intended to get at how problematic the argument really is, in its context. To what extent is the reasoning error you've highlighted a distortion of facts or reasoned thinking? """
+1.07.01 Extremely
+1.07.02 Very
+1.07.03 Somewhat
+1.07.04 Slightly
+1.07.05 Not at all
+
+options 1.07.* highlight=False
+options 1.07 alpha_distance="nominal"
+
+
+1.08 tx You've indicated that the passage contains some 'other' form of misleading reasoning. Briefly describe what is wrong with it.
+options 1.08.* highlight=False
+
+#ordinal
+1.10 mc How difficult was this task for you, on the whole?
+1.10.01 1: Easiest thing I've ever done in a learning situation
+1.10.02 2
+1.10.03 3
+1.10.04 4: Neither easy nor difficult
+1.10.05 5
+1.10.06 6
+1.10.07 7 Hardest thing I've ever done in a learning situation
+
+options 1.10.* highlight=False
+options 1.10 alpha_distance="ordinal"
+
+#ordinal
+1.11 mc How confident are you about your answers, on the whole?
+1.11.01 1: I was guessing randomly for everything
+1.11.02 2
+1.11.03 3
+1.11.04 4: Somewhat confident
+1.11.05 5
+1.11.06 6
+1.11.07 7: 100% certain about all my answers
+
+
+options 1.11.* highlight=False
+options 1.11 alpha_distance="ordinal"
+
+
+
+1.12 tx Is there anything about the interface, instructions, or question wording that could be improved to make tasks like this easier?
+options 1.12.* highlight=False
