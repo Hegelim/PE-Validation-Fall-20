@@ -1,67 +1,316 @@
-,article_batch_name,article_number,article_filename,article_sha256,article_text_length,tua_group_uuid,tua_group_name,tua_batch_uuid,tua_batch_name,tua_batch_final,source_task_uuid,tua_uuid,namespace,topic_name,case_number,answer_uuid,extra,highlight_count,start_pos,end_pos,target_text
-0,CovidArticles/USMightBeComplementingIran.txt,100054,USMightBeComplementingIran.txt,7360da3cdcf83a48e365821654ef0750810f3483efb8e25ad792eed6f4bf0b6f,1870,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,e52b4e75-0712-4fc6-98bf-d19cb253c381,Adjudicator Nick Adams HLTR source task 858 article number 100054 project 186,True,671d3aa2-efba-45fe-a070-dde1d67ab647,fc9c2896-5771-45f3-8541-0ddc30b5a589,Form.2020_03txt,Arguments,1,,{},1,1747,1868,"So far, as many as 988 people have died from the virus across Iran, 16,169 others been infected, and 5,389 have recovered"
-1,CovidArticles/USMightBeComplementingIran.txt,100054,USMightBeComplementingIran.txt,7360da3cdcf83a48e365821654ef0750810f3483efb8e25ad792eed6f4bf0b6f,1870,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,e52b4e75-0712-4fc6-98bf-d19cb253c381,Adjudicator Nick Adams HLTR source task 858 article number 100054 project 186,True,671d3aa2-efba-45fe-a070-dde1d67ab647,6bd59682-6d58-4f7b-9df2-8a0913e404fc,Form.2020_03txt,Arguments,5,,{},2,1104,1397,The US reinstated its sanctions against Iran in May 2018 after leaving aUN-endorsed nuclear agreement with Iran and five other countries.\n\nTehran sued Washington at the International Court of Justice afterwards. The tribunal ruled that the US should lift its sanctions on humanitarian supplies
-2,CovidArticles/USMightBeComplementingIran.txt,100054,USMightBeComplementingIran.txt,7360da3cdcf83a48e365821654ef0750810f3483efb8e25ad792eed6f4bf0b6f,1870,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,e52b4e75-0712-4fc6-98bf-d19cb253c381,Adjudicator Nick Adams HLTR source task 858 article number 100054 project 186,True,671d3aa2-efba-45fe-a070-dde1d67ab647,6bd59682-6d58-4f7b-9df2-8a0913e404fc,Form.2020_03txt,Arguments,5,,{},2,1400,1488,"Washington, meanwhile, claims that it has exempted foodstuffs and medicine from the bans"
-3,CovidArticles/USMightBeComplementingIran.txt,100054,USMightBeComplementingIran.txt,7360da3cdcf83a48e365821654ef0750810f3483efb8e25ad792eed6f4bf0b6f,1870,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,e52b4e75-0712-4fc6-98bf-d19cb253c381,Adjudicator Nick Adams HLTR source task 858 article number 100054 project 186,True,671d3aa2-efba-45fe-a070-dde1d67ab647,41406259-44fd-4345-a576-d5c29c08901b,Form.2020_03txt,Arguments,6,,{},2,1243,1397,Tehran sued Washington at the International Court of Justice afterwards. The tribunal ruled that the US should lift its sanctions on humanitarian supplies
-4,CovidArticles/USMightBeComplementingIran.txt,100054,USMightBeComplementingIran.txt,7360da3cdcf83a48e365821654ef0750810f3483efb8e25ad792eed6f4bf0b6f,1870,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,e52b4e75-0712-4fc6-98bf-d19cb253c381,Adjudicator Nick Adams HLTR source task 858 article number 100054 project 186,True,671d3aa2-efba-45fe-a070-dde1d67ab647,41406259-44fd-4345-a576-d5c29c08901b,Form.2020_03txt,Arguments,6,,{},2,1543,1744,"The Islamic Republic has written to the United Nations and all international organizations, urging removal of the draconian measures that has come in the way of the country\u2019s fight against the outbreak"
-16,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,ce745bb8-8d75-4ff2-8aa7-6d0731b9e0a2,Form.2020_03txt,Arguments,1,,{},3,418,475,China has taken great offence at comments by US officials
-17,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,ce745bb8-8d75-4ff2-8aa7-6d0731b9e0a2,Form.2020_03txt,Arguments,1,,{},3,1444,1539,"ministry spokesman Geng Shuang criticised US officials for ""immoral and irresponsible"" comments"
-18,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,ce745bb8-8d75-4ff2-8aa7-6d0731b9e0a2,Form.2020_03txt,Arguments,1,,{},3,1892,2067,"We wish that a few officials in the US would at this time concentrate their energy on responding to the virus and promoting cooperation, and not on shifting the blame to China"
-19,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,91022e36-c960-420c-8120-6c93dae275c8,Form.2020_03txt,Arguments,2,,{},3,463,827,"US officials accusing it of being slow to react to the virus, first detected in Wuhan late last year, and of not being sufficiently transparent.\n\nOn Wednesday, US National Security Adviser Robert O'Brien said the speed of China's reaction to the emergence of the coronavirus had probably cost the world two months when it could have been preparing for the outbreak"
-20,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,91022e36-c960-420c-8120-6c93dae275c8,Form.2020_03txt,Arguments,2,,{},3,2834,3208,"Unfortunately, rather than using best practices, this outbreak in Wuhan was covered up,"" Trump's national security advisor O'Brien said during a think-tank appearance on Wednesday.\n\n""It probably cost the world community two months to respond,"" during which ""we could have dramatically curtailed what happened both in China and what's now happening across the world"", he said"
-21,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,91022e36-c960-420c-8120-6c93dae275c8,Form.2020_03txt,Arguments,2,,{},3,3435,3596,"We have done a good job responding to it but ... the way that this started out in China, and the way it was handled from the outset, was not right,"" said O'Brien"
-22,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,d72f0003-6815-4f80-babb-65d4bdd4552f,Form.2020_03txt,Arguments,3,,{},3,1786,1888,"China's efforts to slow the spread had bought the world time to prepare against the epidemic, he added"
-23,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,d72f0003-6815-4f80-babb-65d4bdd4552f,Form.2020_03txt,Arguments,3,,{},3,2306,2528,"The Chinese authorities credit firm measures they took in January and February, including a near total shutdown of Hubei, for preventing outbreaks in other Chinese cities on the scale of Wuhan and slowing the spread abroad"
-24,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,d72f0003-6815-4f80-babb-65d4bdd4552f,Form.2020_03txt,Arguments,3,,{},3,2233,2303,in recent weeks the vast majority of new cases have been outside China
-25,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,b151a07b-7752-4cf3-80a0-cbbd8b1d8ac5,Form.2020_03txt,Arguments,4,,{},2,2531,2723,The administration of US President Donald Trump has pointed to a decision to limit air travel from China at the end of January to fend off criticism that it responded too slowly to the disease
-26,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,b151a07b-7752-4cf3-80a0-cbbd8b1d8ac5,Form.2020_03txt,Arguments,4,,{},2,2725,2830,Critics say Trump played down the disease in public and the federal government was slow to roll out tests
-27,CovidArticles/USMilitaryMayHaveBrought.txt,100055,USMilitaryMayHaveBrought.txt,3be14d67e2d88964904dcbe7df176bb81dacfc76a6f2e4ec66b45681c86c9301,3598,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,83adc925-4994-4c6b-a6a0-bae227a46348,Adjudicator Nick Adams HLTR source task 859 article number 100055 project 186,True,aaabf5b1-6f5b-4eab-973e-7760f1e395c9,28b12f02-7657-4ffb-b559-9391e6046dad,Form.2020_03txt,Arguments,6,,{},1,3211,3431,"More than 119,100 people have been infected by the novel coronavirus across the world and 4,298 have died, the vast majority in China, according to a Reuters tally. The United States has 975 cases and 30 people have died"
-42,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,1911eaf9-45d3-4843-8856-d150a3653269,Form.2020_03txt,Arguments,1,,{},1,113,259,"In social networks and small Western publications, a retelling of the 2005 CIA report appeared on the subject \u201cWhat will the world be like in 2020"
-43,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,1ecd949f-96a7-4349-869c-fced8ecaf4c5,Form.2020_03txt,Arguments,2,,{},4,262,370,"There, with striking accuracy, the current scenario for the development of the COVID19 pandemic is described"
-44,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,1ecd949f-96a7-4349-869c-fced8ecaf4c5,Form.2020_03txt,Arguments,2,,{},4,758,879,"In a chapter entitled \u201cA Possible Outbreak of a Global Pandemic,\u201d CIA experts described a scenario very close to COVID-19"
-45,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,1ecd949f-96a7-4349-869c-fced8ecaf4c5,Form.2020_03txt,Arguments,2,,{},4,882,1512,"They foresaw ""the emergence of a new, highly contagious, virulent respiratory disease in humans for which there is no adequate treatment and which could cause a global pandemic .""\n\n\u201cThe emergence of a pandemic depends on the natural genetic mutation, on the recombination of viral strains already in circulation, or on the emergence of a new pathogenic factor in the human population. Highly pathogenic avian influenza strains such as H5N1 are likely candidates for this type of transformation, but other pathogens, such as the severe acute respiratory syndrome coronavirus and some influenza strains will have the same properties"
-46,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,1ecd949f-96a7-4349-869c-fced8ecaf4c5,Form.2020_03txt,Arguments,2,,{},4,1624,2436,"The country of origin probably will not have adequate means of detection, so it will take a long time to detect the disease. Laboratories will need weeks to get the final results confirming the existence of the disease, which could develop into a pandemic.\u201d\n\nA global infection scenario is also described:\n\u201cDespite restrictions on international movement, travelers with few or no symptoms can carry the virus to other continents. There will be more and more patients, and new cases will appear every month.\u201d\n\nThe report predicts areas and circumstances of the emergence of new viruses:\n""If a pandemic breaks out, it will undoubtedly begin in a densely populated area in which people live in close proximity to animals. There are such areas in China and Southeast Asia, where people live in contact with livestock"
-47,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,45cfae4d-78e8-4f6b-a389-a18dccbaf32d,Form.2020_03txt,Arguments,3,,{},1,2440,3146,"In the worst case, according to a CIA report, "" from ten to several hundred million Westerners will become infected with this disease , and the number of deaths will amount to tens of millions.""\n\nIn the rest of the world, there will be a degradation of vital infrastructure, there will be economic losses on a global scale , about one third of the population will go through the disease.\n\nThe result is clear: tensions and conflicts\n\u201cIf this disease appears by 2020, internal and cross-border tensions and conflicts will spread. Countries with insufficient capabilities will seek to control population movements in order to avoid infection or to maintain access to natural resources, \u201d the report concludes"
-71,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,95faef96-1c2b-43ea-94e7-e79a6da3043a,Form.2020_03txt,Arguments,1,,{},2,785,1533,"Our bodies fight infectious diseases through the actions of our immune systems. When we recover, we often retain an immunological memory of the disease that enables us to fight off that same disease in the future. This is how vaccines work, creating this immune memory without requiring getting sick with the disease.\n\nIf you have a new disease, such as COVID-19, that we don\u2019t have a vaccine for and no one in the country has ever been infected with, the disease will spread through the population. But if enough people develop an immune memory, then the disease will stop spreading, even if some of the population is not immune. This is herd immunity, and it is a very effective way to protect the whole of a population against infectious disease"
-72,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,95faef96-1c2b-43ea-94e7-e79a6da3043a,Form.2020_03txt,Arguments,1,,{},2,711,744,but what exactly is herd immunity
-73,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,1536,2688,"But herd immunity is typically only viewed as a preventive strategy in vaccination programmes. If we don\u2019t have a vaccine \u2013 as we don\u2019t for COVID-19 \u2013 achieving herd immunity would require a significant proportion of the population to be infected and recover from COVID-19. So what would this mean for the spread of the disease in the UK?\n\nThe percentage of the population that needs to be immune to enable herd immunity depends on how transmissible a disease is. This is measured by the term R0, which is how many new infections each case will generate. For COVID-19, the R0 is estimated to be 3.28, though studies are still ongoing and this number will probably change. This means that for herd immunity, about 70% of the UK population would need to be immune to COVID-19.\n\nAchieving herd immunity would require well over 47 million people to be infected in the UK. Current estimates are that COVID-19 has a 2.3% case-fatality rate and a 19% rate of severe disease. This means that achieving herd immunity to COVID-19 in the UK could result in the deaths of more a million people with a further eight million severe infections requiring critical care"
-74,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,3886,4229,"Even if we manage to protect the most vulnerable people (though no discussion is provided on how this will be done or for how long) the fatality rate for the otherwise healthy portion of the population may still be 0.5% or higher. This means that even in this unlikely \u201cbest case\u201d scenario we would still be looking at more than 236,000 deaths"
-75,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,4232,4553,We can and we must do better than that. China is rapidly controlling the spread of COVID-19 without requiring herd immunity (only 0.0056% of its population has been infected). Waiting for herd immunity to COVID-19 to develop in the UK by letting the virus \u201cpass through the community\u201d is not a good public health strategy
-76,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,731,744,herd immunity
-77,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,749,752,can
-78,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,756,782,be used to combat COVID-19
-79,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,de62d0c1-e1d8-489a-8a8d-346343a51e27,Form.2020_03txt,Arguments,2,,{},7,3724,3883,"if we slow the spread of the virus but are relying on herd immunity to protect the most vulnerable people, we would still need 47 million people to be infected"
-80,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,a7d643e6-ceee-43f8-b053-1ac3639d9d29,Form.2020_03txt,Arguments,3,,{},1,2726,2956,"However, it is not clear how much of this discussion of herd immunity \u2013 reportedly proposed by David Halpern, chief executive of the Behavioural Insights Team, and later blogged about by Robert Peston \u2013 is actual government policy"
-81,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,ea2c2718-6f8c-4176-8a9a-125c3ed69e9b,Form.2020_03txt,Arguments,4,,{},5,2959,3138,"Also, the concept as discussed is not simply to let the disease run its course through the population, but to slow its spread and protect those most vulnerable from severe disease"
-82,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,ea2c2718-6f8c-4176-8a9a-125c3ed69e9b,Form.2020_03txt,Arguments,4,,{},5,3141,3563,"Slowing the spread of COVID-19 is a promising strategy, especially when combined with enhanced measures to protect the elderly and those with underlying health conditions. By slowing the spread of the disease, the NHS might have more time to prepare, we might be able to develop treatments or vaccines and we will be closer to the summer when we have lower incidences of other diseases that burden the NHS, such as the flu"
-83,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,ea2c2718-6f8c-4176-8a9a-125c3ed69e9b,Form.2020_03txt,Arguments,4,,{},5,662,709,"At face value, this seems like a sound strategy"
-84,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,ea2c2718-6f8c-4176-8a9a-125c3ed69e9b,Form.2020_03txt,Arguments,4,,{},5,109,205,The UK government recently enacted its second phase of response to the COVID-19 pandemic: \u201cdelay
-85,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,ea2c2718-6f8c-4176-8a9a-125c3ed69e9b,Form.2020_03txt,Arguments,4,,{},5,3566,3723,"A delay strategy when combined with surveillance and containment, as recommended by the WHO, could be very effective in combating the spread of COVID-19. Yet"
-90,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,d02cc02e-2c4c-4df3-89f4-7a5358a34d89,Form.2020_03txt,Arguments,1,,{},3,108,250,"ROME \u2014 The number of people in Italy cured of COVID-19 passed the 1,000-mark on Tuesday evening as the country ended its first day of lockdown"
-91,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,d02cc02e-2c4c-4df3-89f4-7a5358a34d89,Form.2020_03txt,Arguments,1,,{},3,753,911,"Among other encouraging news, there has not been a single case of the virus among children in Italy, with no one under the age of 18 coming down with COVID-19"
-92,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,d02cc02e-2c4c-4df3-89f4-7a5358a34d89,Form.2020_03txt,Arguments,1,,{},3,554,750,"On Tuesday, the number of current cases of contagion in Italy grew by only 529, as opposed to the growth of 1,598 cases on Monday, the largest decrease since officials began monitoring the disease"
-93,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,65339cc9-32b6-406c-86ce-4bbe0ca29206,Form.2020_03txt,Arguments,2,,{},2,253,551,"The latest data reported by Italian business newspaper Il Sole 24 Ore show that 8,514 people are currently infected with coronavirus in Italy, while 631 have died from the disease and 1,004 who were infected have since recovered. Some 10,149 are reported to have been infected in the country in all"
-94,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,65339cc9-32b6-406c-86ce-4bbe0ca29206,Form.2020_03txt,Arguments,2,,{},2,914,1101,"The average age of people affected by coronavirus in Italy is 69 years, with only 10 percent of cases affecting those between the ages of 20 and 50, Italian health services (ISS) reported"
-95,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,4fe44575-926e-4001-ad40-4150b989e5b1,Form.2020_03txt,Arguments,3,,{},1,1104,1273,"According to reports from Johns Hopkins University, there have been fewer than 5,000 deaths worldwide (4,284) from COVID-19, and 65,776 who have recovered from the virus"
-96,CovidArticles/Over1000PeopleCuredOf.txt,100057,Over1000PeopleCuredOf.txt,7d1747829a65cd4dad0faf30a704875a125e9decce3b3bcc82f151193923aad8,1630,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,cdd6b691-e2d3-4f72-b863-98f33cfccf89,Adjudicator Nick Adams HLTR source task 864 article number 100057 project 186,True,fbff02ab-8ed7-4aab-96f9-78e4b296f98b,bfd1c5b8-67da-411f-8dd2-32646347117d,Form.2020_03txt,Arguments,4,,{},1,1276,1628,"On Wednesday, Italy entered its second day of lockdown and police have set up checkpoints to stop drivers who venture out on the roads. Minimal travel is permitted but only for reasons that the government judges necessary. Supermarkets are open but lines have formed outside since only a limited number of clients are allowed to enter at any given time"
-100,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,cae653e2-903a-4978-beca-b759b887e0d6,Form.2020_03txt,Arguments,1,,{},3,458,601,"in addition to the typical route of having larger droplets land directly on a new host after an infected person, say, coughs in their proximity"
-101,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,cae653e2-903a-4978-beca-b759b887e0d6,Form.2020_03txt,Arguments,1,,{},3,110,319,"The coronavirus that causes COVID-19, SARS-CoV-2, can survive for several hours in an aerosolized form and for up to three days on plastic and steel surfaces, researchers reported Tuesday (March 10) on medRxiv"
-102,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,cae653e2-903a-4978-beca-b759b887e0d6,Form.2020_03txt,Arguments,1,,{},3,327,441,the detection of viable virus means it\u2019s theoretically possible to transmit the disease from contaminated surfaces
-103,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,30db7432-c213-47e2-9df2-e52eb846c491,Form.2020_03txt,Arguments,2,,{},3,1473,1653,"It\u2019s a solid piece of work that answers questions people have been asking,\u201d Julie Fischer, a microbiologist at Georgetown University who was not involved in the study, tells the AP"
-104,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,30db7432-c213-47e2-9df2-e52eb846c491,Form.2020_03txt,Arguments,2,,{},3,2144,2202,called the study \u201cexcellent\u201d in an interview with Buzzfeed
-105,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,30db7432-c213-47e2-9df2-e52eb846c491,Form.2020_03txt,Arguments,2,,{},3,1988,2142,"David Weber, an epidemiologist and infectious disease expert at the University of North Carolina at Chapel Hill who was not involved with the new research"
-106,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,a4e8eafa-1958-46c8-a80d-a61705fa0bab,Form.2020_03txt,Arguments,3,,{},1,1805,1985,"As of today, more than 125,000 cases of COVID-19 have been reported worldwide, including 4,617 deaths, according to data from the European Centre for Disease Prevention and Control"
-107,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,d79b4531-a24b-4431-b615-98fd596571fe,Form.2020_03txt,Arguments,4,,{},2,2208,2497,notes that it can\u2019t explain how risky contaminated surfaces are. \u201cDoes that account for 0.01% of transmissions or 15% of transmissions?\u201d Weber says. \u201cWe don't know how frequent it is.\u201d He also cautions that the lab conditions might not precisely recapitulate what happens in the real world
-108,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,d79b4531-a24b-4431-b615-98fd596571fe,Form.2020_03txt,Arguments,4,,{},2,1988,2142,"David Weber, an epidemiologist and infectious disease expert at the University of North Carolina at Chapel Hill who was not involved with the new research"
-109,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,a9fb8eb8-9bfa-4bb5-9ae2-2769b2cff40d,Form.2020_03txt,Arguments,5,,{},2,442,457,or from the air
-110,CovidArticles/SARS-CoV-2CanLiveOnPlastic.txt,100058,SARS-CoV-2CanLiveOnPlastic.txt,be0b18a87d4370fa579180ef26dcb7080598f27f9ec76181f2cfd851f320da06,2499,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,473d3b8e-9baf-421b-9d00-ef0a9cc16975,Adjudicator Nick Adams HLTR source task 865 article number 100058 project 186,True,bc22c571-2c95-4b6a-b29e-1e48cdc02b55,a9fb8eb8-9bfa-4bb5-9ae2-2769b2cff40d,Form.2020_03txt,Arguments,5,,{},2,603,798,"We\u2019re not by any way saying there is aerosolized transmission of the virus,\u201d coauthor Neeltje van Doremalen of the National Institute of Allergy and Infectious Diseases tells the Associated Press"
-116,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,de8bc1c2-fad8-4a7e-b251-87e837b8bc2b,Form.2020_03txt,Arguments,1,,{},2,0,2236,"Title: Social distancing comes with psychological fallout\nSubtitle: \nAuthor: Sujata Gupta\nDate: 29 MAR 2020\n\nAs increasingly stringent measures to keep people apart are put in place to slow the spread of the coronavirus, mental health experts are warning that losing everyday social connections comes with psychological costs. And those costs could go up the longer such measures drag on.\nIn response to the accelerating pandemic, a growing number of states have banned all nonessential activities and asked residents to stay home. Across the country, colleges and offices have gone entirely online, schools and restaurants are closed and nursing homes are barring visitors. Such social distancing\xa0can stop, or at least slow, the spread of COVID-19, the disease caused by the new coronavirus (SN: 3/13/20).\nBut \u201cfor some people, a lack of social connectedness feels as impactful as not eating,\u201d says Joshua Morganstein, a psychiatrist and disaster mental health expert at the Uniformed Services University in Bethesda, Md.\nResearch on the psychological toll of social distancing during epidemics is limited. But a review in the March 14\xa0Lancet\xa0provides some clues. Researchers evaluated 24 studies looking at the psychological outcomes of people who were quarantined, an extreme form of social distancing, during outbreaks of SARS, H1N1 flu, Ebola and other infectious diseases since the early 2000s.\nMany\xa0quarantined individuals experienced both short- and long-term mental health problems, including stress, insomnia, emotional exhaustion and substance abuse. For instance, one study compared quarantined versus non-quarantined individuals during an equine influenza outbreak. Of 2,760 quarantined people, 34 percent, or 938 individuals, reported high levels of psychological distress, which can indicate mental health problems such as anxiety and depression, during the outbreak compared with 12 percent of non-quarantined individuals.\nAnother study looked at the effects of the 2003 SARS outbreak on 549 hospital workers in Beijing. Those who were quarantined or worked in high-risk settings \u2014 almost half the sample \u2014 reported higher levels of alcohol abuse three years later than workers with less-intense exposure to the outbreak"
-117,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,de8bc1c2-fad8-4a7e-b251-87e837b8bc2b,Form.2020_03txt,Arguments,1,,{},2,3049,3702,"The potential for social distancing to become a long-term event is what worries psychiatrist Damir Huremovic of Northwell Health in Manhasset, N.Y. Health problems associated with social isolation tend to crop up when the situation goes on beyond a few weeks, he says. Walling people off from one another for months means the secondary effects of the pandemic, such as recession, social unrest and unemployment, could trigger unpredictable and widespread mental health challenges. \u201cI sincerely hope we do not get to this stage,\u201d says Huremovic, who cowrote and edited the 2019 book\xa0Psychiatry of Pandemics: A Mental Health Response to Infection Outbreak"
-118,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,fc73ddcf-db60-423f-8c18-8ea4e5a540a4,Form.2020_03txt,Arguments,2,,{},1,2536,2792,"Mitigating those risks can reduce the likelihood of mental health problems, says review coauthor Neil Greenberg, a psychiatrist at King\u2019s College London. \u201cAlthough isolation can be unpleasant,\u201d he says, \u201cit need not cause serious mental health difficulties"
-119,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,05b5759c-1ed1-45e0-ba8a-37a43daddf90,Form.2020_03txt,Arguments,3,,{},1,3764,4345,"Especially\xa0at risk are the elderly, who both get more ill from the coronavirus and already experience high rates of social isolation (SN: 3/4/20). As people age, they often lose the ability to get around and socialize, and their support systems shrink as friends and family die. In February, a study from the National Academies of Sciences, Engineering and Medicine reported that\xa0nearly a quarter of Americans age 65 and older are socially isolated, defined as having few social relationships or infrequent contact with others. And 43 percent of adults age 60 and older feel lonely"
-120,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,7df43f04-2070-43c2-9a49-1aadfa5817af,Form.2020_03txt,Arguments,4,,{},2,4348,5366,"We already have a lot of social distance between us,\u201d says study coauthor Julianne Holt-Lunstad, a health psychologist at Brigham Young University in Provo, Utah.\nSuch loneliness and isolation may harm overall health\xa0across age groups (SN: 2/20/15). In 2015, Holt-Lunstad and her colleagues did a meta-analysis of 70 studies involving more than 3.4 million participants followed for an average of seven years.\xa0The likelihood of dying during the study period\xa0increased by 26 percent for those who reported loneliness (feeling alone), 29 percent for those who were socially isolated (having few social contacts) and 32 percent for those living alone, the team found.\nSome people will fare better than others during this period of social distancing. Some may actually see their social contact increase as families hunker down together. And some people will stay connected through phone calls, text message or joining an online community. \u201cWe live in this age of unprecedented communication [capabilities],\u201d Huremovic says"
-121,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,7df43f04-2070-43c2-9a49-1aadfa5817af,Form.2020_03txt,Arguments,4,,{},2,5368,5600,Those communication capabilities could even help provide medical and psychological care from afar. Limited research suggests that telehealth services work to alleviate loneliness or help those living alone or far from health centers
-122,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,44d6175c-743f-4dc7-8fa5-3b82cbf9300f,Form.2020_03txt,Arguments,5,,{},4,5602,5853,"But gerontologist Verena Menec doubts they can substitute for face-to-face contact indefinitely. \u201cIn the long run, if you only had that kind of contact, I don\u2019t think that would be enough,\u201d says Menec, of the University of Manitoba in Winnipeg, Canada"
-123,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,44d6175c-743f-4dc7-8fa5-3b82cbf9300f,Form.2020_03txt,Arguments,5,,{},4,5855,6096,"And modern technology is no substitute for human touch, such as holding hands, hugging or massage, which studies suggest can affect health, including possibly\xa0lowering blood pressure\xa0and\xa0reducing the severity of symptoms from the common cold"
-124,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,44d6175c-743f-4dc7-8fa5-3b82cbf9300f,Form.2020_03txt,Arguments,5,,{},4,6507,6543,handholding can reduce physical pain
-125,CovidArticles/Covid_article_for_PE_S&S&S.txt,100059,Covid_article_for_PE_S&S&S.txt,4b537e0ed21179a29ed28da28057d338e67330ae12123ccceba6724f35bd68a4,6794,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,15849de0-9af8-4141-96dd-4d8521187c19,Adjudicator Nick Adams HLTR source task 866 article number 100059 project 186,True,b89d2c36-9f72-44ad-92da-de79ab159ae9,44d6175c-743f-4dc7-8fa5-3b82cbf9300f,Form.2020_03txt,Arguments,5,,{},4,6545,6791,"Even touch that comes from a hospital worker in protective gear instead of a loved one is better than nothing, Coan says. \u201cI\u2019ve been banging on this drum for a long time. [We] have got to figure out a way to make touch part of the medical program"
+u0,00f548,2,,113,259
+u1,00f548,2,,699,1058
+u2,00f548,2,,1565,1600
+u3,00f548,2,,1624,1879
+u4,00f548,2,,1931,2436
+u5,00f548,2,,2636,2826
+u6,00f548,2,,2874,3146
+u7,00f548,2,,3149,3291
+u8,00f548,2,,3294,3608
+u9,00f548,2,,6364,6582
+u10,00f548,2,,7188,7392
+u11,00f548,2,,7541,7643
+u12,00f548,2,,8061,8283
+u13,00f548,2,,8589,8963
+u14,0b2ee3,2,,7054,7164
+u15,0b2ee3,2,,10015,10135
+u16,0b2ee3,2,,10138,10454
+u17,0b2ee3,2,,12666,12916
+u18,0b2ee3,2,,16547,16895
+u19,0b2ee3,2,,16897,16978
+u20,0b2ee3,2,,17343,17523
+u21,0b2ee3,2,,18146,18424
+u22,0b2ee3,2,,18712,18841
+u23,0b2ee3,2,,19438,19597
+u24,0b2ee3,2,,22548,22632
+u25,0b2ee3,2,,23405,23502
+u26,0b2ee3,2,,23504,23637
+u27,343ecb,2,,164,370
+u28,343ecb,2,,592,756
+u29,343ecb,2,,758,1058
+u30,343ecb,2,,1883,2632
+u31,343ecb,2,,2636,2826
+u32,343ecb,2,,2874,3146
+u33,343ecb,2,,3147,3149
+u34,343ecb,2,,3612,3811
+u35,343ecb,2,,4041,4218
+u36,343ecb,2,,4222,4427
+u37,343ecb,2,,4430,4661
+u38,343ecb,2,,4838,4985
+u39,343ecb,2,,4989,5125
+u40,343ecb,2,,5128,5282
+u41,343ecb,2,,5375,5425
+u42,343ecb,2,,5428,5629
+u43,343ecb,2,,5919,6170
+u44,343ecb,2,,6173,6361
+u45,343ecb,2,,6364,6582
+u46,343ecb,2,,6585,7003
+u47,343ecb,2,,7006,7164
+u48,343ecb,2,,7167,7392
+u49,343ecb,2,,7395,7538
+u50,343ecb,2,,7541,7643
+u51,343ecb,2,,7647,7822
+u52,343ecb,2,,7840,8058
+u53,343ecb,2,,8061,8283
+u54,343ecb,2,,8286,8478
+u55,343ecb,2,,8589,8963
+u56,343ecb,2,,9190,9351
+u57,41a6c6,2,,32870,33263
+u58,41a6c6,2,,33266,33743
+u59,41a6c6,2,,33747,34292
+u60,41a6c6,2,,34586,34804
+u61,41a6c6,2,,34808,35289
+u62,41a6c6,2,,35293,35697
+u63,41a6c6,2,,35868,36183
+u64,41a6c6,2,,36599,36752
+u65,41a6c6,2,,36819,36900
+u66,41a6c6,2,,36986,37079
+u67,41a6c6,2,,37249,37423
+u68,41a6c6,2,,37619,37813
+u69,41a6c6,2,,38004,38243
+u70,41a6c6,2,,38283,38476
+u71,452115,2,,25238,25243
+u72,592ad4,2,,14189,14230
+u73,592ad4,2,,14241,14459
+u74,592ad4,2,,14822,14969
+u75,592ad4,2,,14971,14999
+u76,592ad4,2,,15038,15062
+u77,592ad4,2,,15064,15181
+u78,592ad4,2,,15648,15805
+u79,592ad4,2,,15807,15857
+u80,592ad4,2,,17343,17444
+u81,592ad4,2,,17473,17523
+u82,592ad4,2,,19151,19180
+u83,592ad4,2,,19202,19436
+u84,592ad4,2,,22095,22166
+u85,592ad4,2,,22181,22382
+u86,592ad4,2,,22644,22793
+u87,592ad4,2,,22795,23130
+u88,76f739,2,,2829,2872
+u89,76f739,2,,3726,3811
+u90,76f739,2,,4430,4473
+u91,8f5ca4,2,,183,370
+u92,8f5ca4,2,,592,2436
+u93,8f5ca4,2,,2440,2826
+u94,8f5ca4,2,,2829,3146
+u95,8f5ca4,2,,4037,4172
+u96,8f5ca4,2,,4178,4218
+u97,8f5ca4,2,,4222,4330
+u98,8f5ca4,2,,4430,4661
+u99,8f5ca4,2,,4665,4985
+u100,8f5ca4,2,,4989,5125
+u101,8f5ca4,2,,5128,5199
+u102,8f5ca4,2,,5201,5282
+u103,8f5ca4,2,,5375,5425
+u104,8f5ca4,2,,5428,5629
+u105,8f5ca4,2,,5632,5753
+u106,8f5ca4,2,,5998,6077
+u107,8f5ca4,2,,6218,6278
+u108,8f5ca4,2,,6320,6361
+u109,8f5ca4,2,,6378,6582
+u110,8f5ca4,2,,6665,7003
+u111,8f5ca4,2,,7006,7164
+u112,8f5ca4,2,,7218,7392
+u113,8f5ca4,2,,7427,7538
+u114,8f5ca4,2,,7541,7822
+u115,8f5ca4,2,,7840,8058
+u116,8f5ca4,2,,8061,8283
+u117,8f5ca4,2,,8286,8478
+u118,8f5ca4,2,,8589,8724
+u119,8f5ca4,2,,8772,8963
+u120,8f5ca4,2,,9190,9351
+u121,aac18e,2,,4021,4172
+u122,aac18e,2,,4448,4661
+u123,bbe329,2,,32917,32997
+u124,bbe329,2,,33434,33714
+u125,bbe329,2,,33716,33743
+u126,bbe329,2,,35699,36183
+u127,bbe329,2,,36599,36752
+u128,bbe329,2,,36819,36900
+u129,bbe329,2,,36986,37079
+u130,bbe329,2,,37249,37423
+u131,bbe329,2,,37619,37660
+u132,bbe329,2,,37664,37813
+u133,bbe329,2,,38004,38243
+u134,bbe329,2,,38283,38476
+u135,bd7860,2,,262,370
+u136,bd7860,2,,699,756
+u137,bd7860,2,,824,879
+u138,bd7860,2,,2133,2208
+u139,bd7860,2,,3240,3291
+u140,bd7860,2,,3623,3811
+u141,bd7860,2,,4037,4218
+u142,bd7860,2,,4480,4661
+u143,bd7860,2,,4773,4985
+u144,bd7860,2,,5128,5282
+u145,bd7860,2,,5428,5629
+u146,bd7860,2,,5919,6170
+u147,bd7860,2,,6173,6361
+u148,bd7860,2,,7006,7164
+u149,bd7860,2,,7984,8058
+u150,bd7860,2,,10984,11161
+u151,bd7860,2,,11857,12041
+u152,bd7860,2,,12666,12916
+u153,bd7860,2,,13073,13236
+u154,bd7860,2,,13239,13582
+u155,bd7860,2,,13761,13906
+u156,bd7860,2,,14023,14158
+u157,bd7860,2,,14474,14658
+u158,bd7860,2,,15198,15318
+u159,bd7860,2,,15320,15405
+u160,bd7860,2,,15407,15536
+u161,bd7860,2,,15648,15805
+u162,bd7860,2,,17356,17444
+u163,bd7860,2,,17957,18035
+u164,c386e6,2,,32870,33743
+u165,c386e6,2,,33747,34292
+u166,c386e6,2,,34586,34804
+u167,c386e6,2,,34808,35289
+u168,c386e6,2,,35293,35697
+u169,c386e6,2,,35699,36183
+u170,c386e6,2,,36599,36752
+u171,c386e6,2,,36819,36900
+u172,c386e6,2,,36986,37079
+u173,c386e6,2,,37249,37423
+u174,c386e6,2,,37619,37813
+u175,c386e6,2,,37816,38001
+u176,c386e6,2,,38004,38243
+u177,c386e6,2,,38283,38476
+u178,e08341,2,,113,259
+u179,e08341,2,,262,370
+u180,e08341,2,,758,879
+u181,e08341,2,,882,1512
+u182,e08341,2,,1624,2436
+u183,e08341,2,,2440,3146
+u184,e08341,2,,4037,4218
+u185,e08341,2,,4480,4661
+u186,e08341,2,,4773,4985
+u187,e08341,2,,4989,5282
+u188,e08341,2,,5285,5629
+u189,e08341,2,,6173,6582
+u190,e08341,2,,7199,7294
+u191,e08341,2,,7541,7643
+u192,e08341,2,,7647,7822
+u193,e08341,2,,7988,8058
+u194,e08341,2,,8061,8283
+u195,e08341,2,,8286,8478
+u196,e08341,2,,8480,8585
+u197,e08341,2,,8589,8963
+u198,e08341,2,,8966,9186
+u199,e08341,2,,9190,9351
+u200,e08341,2,,9462,9558
+u201,e08341,2,,10015,10062
+u202,e08341,2,,10064,10135
+u203,e08341,2,,10138,10886
+u204,e08341,2,,10889,12041
+u205,e08341,2,,12079,12309
+u206,e08341,2,,12312,12491
+u207,e08341,2,,12494,12916
+u208,e08341,2,,12919,13236
+u209,e08341,2,,13239,13582
+u210,e08341,2,,13585,13906
+u211,e08341,2,,14016,14158
+u212,e08341,2,,14161,14459
+u213,e08341,2,,14462,14658
+u214,e08341,2,,14661,14819
+u215,e08341,2,,14822,15009
+u216,e08341,2,,15012,15181
+u217,e08341,2,,15184,15536
+u218,e08341,2,,15648,16978
+u219,e08341,2,,17011,17340
+u220,e08341,2,,17343,17523
+u221,e08341,2,,17526,18035
+u222,e08341,2,,24710,24714
+u223,e08341,2,,25159,25628
+u224,e08341,2,,25631,25725
+u225,e08341,2,,25728,25894
+u226,e08341,2,,25954,26053
+u227,e08341,2,,26055,26271
+u228,e08341,2,,26274,26401
+u229,e08341,2,,26601,26745
+u230,e08341,2,,26748,27017
+u231,e08341,2,,27034,27966
+u232,e08341,2,,27969,28297
+u233,e08341,2,,28300,28638
+u234,e08341,2,,28743,29250
+u235,e08341,2,,29254,29743
+u236,e08341,2,,29745,30011
+u237,e08341,2,,30014,30223
+u238,e08341,2,,30369,31005
+u239,e08341,2,,31008,31377
+u240,e08341,2,,31380,31678
+u241,e08341,2,,31808,31962
+u242,e08341,2,,31965,32868
+u243,e08341,2,,32870,33263
+u244,e08341,2,,33266,33430
+u245,e08341,2,,33434,33639
+u246,e08341,2,,33642,33743
+u247,e08341,2,,33747,34583
+u248,e08341,2,,34586,35121
+u249,e08341,2,,35126,35289
+u250,e08341,2,,35293,35734
+u251,e08341,2,,35736,36183
+u252,e44f57,2,,6990,6993
+u253,e44f57,2,,7840,8058
+u254,e44f57,2,,8966,9186
+u255,e44f57,2,,10138,10454
+u256,e44f57,2,,10457,10886
+u257,e44f57,2,,10889,11226
+u258,e44f57,2,,11229,11662
+u259,e44f57,2,,11665,12041
+u260,e44f57,2,,12494,12916
+u261,e44f57,2,,12919,13071
+u262,e44f57,2,,13073,13236
+u263,e44f57,2,,13239,13582
+u264,e44f57,2,,15652,15805
+u265,e44f57,2,,16339,16978
+u266,e44f57,2,,17011,17340
+u267,e44f57,2,,17757,18035
+u268,e44f57,2,,18037,20273
+u269,e44f57,2,,20573,20829
+u270,e44f57,2,,21086,21739
+u271,e44f57,2,,21801,22382
+u272,e44f57,2,,22385,23403
+u273,e44f57,2,,23405,23637
+u274,e44f57,2,,23639,23890
+u275,e44f57,2,,23892,24133
+u276,e44f57,2,,24544,24580
+u277,e44f57,2,,24582,24828
+u278,e44f57,2,,25221,25725
+u279,e44f57,2,,25954,27017
+u280,e44f57,2,,27119,27230
+u281,e44f57,2,,27234,27603
+u282,e44f57,2,,27741,27966
+u283,e44f57,2,,27969,28297
+u284,f3a07c,2,,726,879
+u285,f3a07c,2,,882,1058
+u286,f3a07c,2,,1064,1562
+u287,f3a07c,2,,1624,1879
+u288,f3a07c,2,,1931,2129
+u289,f3a07c,2,,2211,2436
+u290,f3a07c,2,,2488,2632
+u291,f3a07c,2,,2874,3146
+u292,f91436,2,,4037,4218
+u293,f91436,2,,4536,4661
+u294,f91436,2,,5538,5629
+u295,f91436,2,,5919,6170
+u296,f91436,2,,6173,6361
+u297,f91436,2,,7054,7164
+u298,f91436,2,,7840,7982
+u299,f91436,2,,7984,8058
+u300,f91436,2,,8065,8139
+u301,f91436,2,,8183,8283
+u302,f91436,2,,8286,8478
+u303,f91436,2,,9131,9186
+u304,f91436,2,,10984,11161
+u305,f91436,2,,11857,12041
+u306,f91436,2,,12318,12491
+u307,f91436,2,,12666,12916
+u308,f91436,2,,12919,13071
+u309,f91436,2,,13073,13236
+u310,f91436,2,,13470,13582
+u311,f91436,2,,13761,13906
+u312,f91436,2,,14023,14158
+u313,f91436,2,,14593,14658
+u314,f91436,2,,14691,14819
+u315,f91436,2,,15184,15405

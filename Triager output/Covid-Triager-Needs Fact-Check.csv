@@ -1,4 +1,32 @@
-,article_batch_name,article_number,article_filename,article_sha256,article_text_length,tua_group_uuid,tua_group_name,tua_batch_uuid,tua_batch_name,tua_batch_final,source_task_uuid,tua_uuid,namespace,topic_name,case_number,answer_uuid,extra,highlight_count,start_pos,end_pos,target_text
-50,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,36b7065d-9364-4611-b202-cea91efd1f30,Form.2020_03txt,Needs Fact-Check,1,,{},1,3294,3608,"In the scientific journal Nature Medicine for 2015, they found an article stating that American scientists artificially created a hybrid version of coronavirus in different animals, for example, bats. It is further described that back in 2013 they were studying the possibility of transmitting this virus to humans"
-51,CovidArticles/2005CIAReportOnCoronavirus.txt,2005,2005CIAReportOnCoronavirus.txt,47990959103662e94e796d979018922afddc880fb4b867c7ca2ac8aa2146e7c4,3885,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,7d1112e8-1b56-495e-b8b1-b941beef2c5c,Adjudicator Nick Adams HLTR source task 857 article number 2005 project 186,True,a6b4bf8a-e6b3-4ab7-93cc-cda717a321b8,ebc9d8b5-5e71-47c8-b228-5a970ff3c2b9,Form.2020_03txt,Needs Fact-Check,2,,{},1,3612,3724,"On Monday, the United States reported that they created an experimental coronavirus vaccine and began testing it"
-86,CovidArticles/CoronavirusCanHerdImmunityReally.txt,100056,CoronavirusCanHerdImmunityReally.txt,09a894f06d1157dd7a22a198c6ef78c2b9f4116266d2b0a177d7bb129a51f6e8,4555,a8428c88-cd9d-4318-a5cf-3fd0f25a9ce3,Covid_Form1.0.adjudicated,ba9349c8-9c55-4ef4-b8c5-9ea1017e24e6,Adjudicator Nick Adams HLTR source task 863 article number 100056 project 186,True,ad78b76b-69c0-4a8d-90a9-668975f45199,d821ff21-302d-4d8e-91b4-a079eb999cc2,Form.2020_03txt,Needs Fact-Check,1,,{},1,2000,2309,"This is measured by the term R0, which is how many new infections each case will generate. For COVID-19, the R0 is estimated to be 3.28, though studies are still ongoing and this number will probably change. This means that for herd immunity, about 70% of the UK population would need to be immune to COVID-19"
+u0,0b2ee3,4,,5520,5629
+u1,0b2ee3,4,,5632,5753
+u2,0b2ee3,4,,11444,11488
+u3,0b2ee3,4,,14691,14819
+u4,343ecb,4,,3294,3608
+u5,343ecb,4,,3612,3811
+u6,343ecb,4,,5285,5373
+u7,343ecb,4,,8334,8478
+u8,343ecb,4,,8480,8585
+u9,452115,4,,18450,18454
+u10,592ad4,4,,14691,14819
+u11,592ad4,4,,15407,15536
+u12,592ad4,4,,16547,16978
+u13,76f739,4,,3175,3291
+u14,8f5ca4,4,,3294,3608
+u15,8f5ca4,4,,3623,3811
+u16,8f5ca4,4,,5285,5373
+u17,aac18e,4,,4232,4252
+u18,aac18e,4,,4785,4826
+u19,aac18e,4,,5308,5373
+u20,aac18e,4,,5375,5425
+u21,aac18e,4,,5640,5753
+u22,bd7860,4,,3235,3291
+u23,bd7860,4,,3297,3608
+u24,bd7860,4,,11444,11488
+u25,bd7860,4,,11757,11855
+u26,e08341,4,,3294,3608
+u27,e08341,4,,3612,3724
+u28,e08341,4,,11353,11662
+u29,f3a07c,4,,3294,3608
+u30,f3a07c,4,,3612,3724
+u31,f91436,4,,11444,11488
