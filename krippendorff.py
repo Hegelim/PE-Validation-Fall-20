@@ -9,6 +9,7 @@ The module naming follows the one from the Wikipedia link.
 from typing import Any, Callable, Iterable, Optional, Sequence, Union
 
 import numpy as np
+import pandas as pd
 
 
 def _nominal_metric(v1: np.ndarray, v2: np.ndarray, dtype: Any = np.float64, **kwargs) -> np.ndarray:  # noqa
@@ -248,7 +249,8 @@ def alpha(reliability_data: Optional[Iterable[Any]] = None, value_counts: Option
         reliability_data = np.asarray(reliability_data)
 
         if value_domain is None:
-            value_domain = np.unique(reliability_data[~np.isnan(reliability_data)])
+            # value_domain = np.unique(reliability_data[~np.isnan(reliability_data)])
+            value_domain = np.unique(reliability_data[~pd.isnull(reliability_data)])
         else:
             value_domain = np.asarray(value_domain)
             assert np.isin(reliability_data, np.append(value_domain, np.nan)).all(), \
@@ -270,7 +272,12 @@ def alpha(reliability_data: Optional[Iterable[Any]] = None, value_counts: Option
     distance_metric = _distance_metric(level_of_measurement)
 
     o = _coincidences(value_counts, dtype=dtype)
+    print(o)
     n_v = o.sum(axis=0)
+    print(n_v)
     e = _random_coincidences(n_v, dtype=dtype)
+    print(e)
     d = _distances(value_domain, distance_metric, n_v, dtype=dtype)
+    print(d)
+    print(e*d)
     return 1 - (o * d).sum() / (e * d).sum()
