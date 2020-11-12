@@ -272,12 +272,7 @@ def alpha(reliability_data: Optional[Iterable[Any]] = None, value_counts: Option
     distance_metric = _distance_metric(level_of_measurement)
 
     o = _coincidences(value_counts, dtype=dtype)
-    print(o)
     n_v = o.sum(axis=0)
-    print(n_v)
     e = _random_coincidences(n_v, dtype=dtype)
-    print(e)
     d = _distances(value_domain, distance_metric, n_v, dtype=dtype)
-    print(d)
-    print(e*d)
     return 1 - (o * d).sum() / (e * d).sum()
