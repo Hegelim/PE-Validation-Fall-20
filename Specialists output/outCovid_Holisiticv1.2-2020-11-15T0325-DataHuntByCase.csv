@@ -1,0 +1,35 @@
+,Question,Question_type,Question_Subtype,Alpha,Number of Pairable Elements
+0,T1.Q1,mc,nominal,-0.008620689655172376,10
+1,T1.Q3,cl,T1.Q3.A2,1.0,10
+2,T1.Q3,cl,T1.Q3.A1,0.0,10
+3,T1.Q3,cl,T1.Q3.A12,There has to be more than one value in the domain.,10
+4,T1.Q3,cl,T1.Q3.A4,0.0,10
+5,T1.Q3,cl,T1.Q3.A5,There has to be more than one value in the domain.,10
+6,T1.Q3,cl,T1.Q3.A3,There has to be more than one value in the domain.,10
+7,T1.Q5,mc,nominal,0.23026315789473673,10
+8,T1.Q6,cl,T1.Q6.A1,0.0625,10
+9,T1.Q6,cl,T1.Q6.A2,0.0,10
+10,T1.Q6,cl,T1.Q6.A4,There has to be more than one value in the domain.,10
+11,T1.Q6,cl,T1.Q6.A7,-0.125,10
+12,T1.Q6,cl,T1.Q6.A8,0.0,10
+13,T1.Q6,cl,T1.Q6.A5,0.0,10
+14,T1.Q6,cl,T1.Q6.A3,0.0,10
+15,T1.Q7,mc,ordinal,0.5911764705882353,10
+16,T1.Q8,mc,ordinal,0.44200000000000006,10
+17,T1.Q9,cl,T1.Q9.A9,0.0,7
+18,T1.Q9,cl,T1.Q9.A2,0.0,7
+19,T1.Q10,cl,T1.Q10.A2,-0.0714285714285714,10
+20,T1.Q10,cl,T1.Q10.A4,0.1428571428571429,10
+21,T1.Q10,cl,T1.Q10.A1,0.0,10
+22,T1.Q10,cl,T1.Q10.A3,-0.2857142857142856,10
+23,T1.Q10,cl,T1.Q10.A5,There has to be more than one value in the domain.,10
+24,T1.Q11,mc,ordinal,0.26049999999999995,10
+25,T1.Q12,mc,ordinal,0.6415,10
+26,T1.Q13,mc,ordinal,0.0,10
+27,T1.Q14,mc,nominal,0.4375,10
+28,T1.Q15,cl,T1.Q15.A1,0.20000000000000007,7
+29,T1.Q15,cl,T1.Q15.A3,0.0,7
+30,T1.Q15,cl,T1.Q15.A2,0.0,7
+31,T1.Q15,cl,T1.Q15.A4,,7
+32,T1.Q17,mc,ordinal,-0.15949999999999998,10
+33,T1.Q18,mc,ordinal,0.38479020979020984,10
