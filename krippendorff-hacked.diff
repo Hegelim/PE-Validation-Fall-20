@@ -1,0 +1,18 @@
+$ diff krippendorff/krippendorff.py krippendorff/krippendorff-yuwen-unversioned.py
+11a12
+> import pandas as pd
+251c252,253
+<             value_domain = np.unique(reliability_data[~np.isnan(reliability_data)])
+---
+>             # value_domain = np.unique(reliability_data[~np.isnan(reliability_data)])
+>             value_domain = np.unique(reliability_data[~pd.isnull(reliability_data)])
+
+
+The above change to fast-krippendorff is not necessary if you coerce to a float ndarray in the return
+statement of the following two functions:
+
+def to_reliability_mc(df):
+  return array.astype(dtype=float)
+
+def to_reliability_cl(df):
+  return array.astype(dtype=float)
