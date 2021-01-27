@@ -1,0 +1,214 @@
+Loading schema for 'Covid_ArgumentRelevance_2020_03_20v2-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_ArgumentRelevancev1.2-2020-12-02T0749-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q1
+How important is the argument in bolded text to the overall article?
+Units: 26 Max raters: 10 Pairable values: 141
+Krippendorff alpha for 'T1.Q1' is 0.382 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6]
+Loading schema for 'Covid_Evidence2020_03_21-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_Evidencev1-2020-12-02T0749-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q4
+How representative is the sample of the population that the claim is made about?
+Units: 14 Max raters: 38 Pairable values: 74
+Krippendorff alpha for 'T1.Q4' is 0.140 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6]
+----T1.Q5
+Was there an adequate control? If so, highlight section.
+Units: 9 Max raters: 22 Pairable values: 31
+Krippendorff alpha for 'T1.Q5' is 0.428 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q6
+Was randomized assignment used?
+Units: 2 Max raters: 17 Pairable values: 17
+Krippendorff alpha for 'T1.Q6' is 0.000 Alpha distance: nominal Value domain: [1, 2, 3]
+----T1.Q8
+How likely is your alternative explanation for the same evidence, as compared to the author’s explanation?
+Units: 16 Max raters: 42 Pairable values: 139
+Krippendorff alpha for 'T1.Q8' is 0.139 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q9
+Is data presented as evidence for a pattern (e.g. A relationship between two variables)?
+Units: 18 Max raters: 67 Pairable values: 379
+Krippendorff alpha for 'T1.Q9' is 0.053 Alpha distance: nominal Value domain: [1, 2, 3]
+----T1.Q10
+Given the information you have, how likely is it that the apparent pattern is a result of random statistical variation or error (noise)?
+Units: 14 Max raters: 35 Pairable values: 137
+Krippendorff alpha for 'T1.Q10' is 0.123 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q11
+Given the information you have, how likely is it that the apparent pattern is a result of some systematic error (a systematic bias in the study that could not be cancelled out by collecting more data)?
+Units: 14 Max raters: 35 Pairable values: 137
+Krippendorff alpha for 'T1.Q11' is 0.028 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q12
+Does the author suggest in any way that further evidence might improve our understanding of the topic?
+Units: 18 Max raters: 67 Pairable values: 379
+Krippendorff alpha for 'T1.Q12' is 0.150 Alpha distance: ordinal Value domain: [1, 2, 3, 4]
+----T1.Q13
+How difficult was this task for you, on the whole?
+Units: 18 Max raters: 67 Pairable values: 379
+Krippendorff alpha for 'T1.Q13' is 0.005 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+----T1.Q14
+How confident are you about your answers, on the whole?
+Units: 18 Max raters: 67 Pairable values: 379
+Krippendorff alpha for 'T1.Q14' is 0.023 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Loading schema for 'Covid_Holisticv1.2-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_Holisiticv1.2-2020-12-02T0749-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q1
+What type of article is this?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q1' is -0.009 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+----T1.Q5
+Before carefully reading the article, would you have been inclined to agree or disagree with its point of view?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q5' is 0.230 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5]
+----T1.Q7
+Given what you know about the world, how *credible* does the article seem to you, overall?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q7' is 0.591 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q8
+Given what you know about the world, how *biased* does the article seem to you, overall?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q8' is 0.442 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q11
+Does the article’s title/headline match the text?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q11' is 0.260 Alpha distance: ordinal Value domain: [1, 2, 3, 4]
+----T1.Q12
+Does the article exaggerate the importance of a relatively minor event, person, or group?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q12' is 0.641 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q13
+How likely is this article to affect anyone’s behavior or beliefs?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q13' is 0.000 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q14
+Are there claims in the article that seem suspicious or wrong?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q14' is 0.438 Alpha distance: nominal Value domain: [1, 2]
+----T1.Q17
+How difficult was this task for you, on the whole?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q17' is -0.159 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+----T1.Q18
+How confident are you about your answers, on the whole?
+Units: 7 Max raters: 5 Pairable values: 10
+Krippendorff alpha for 'T1.Q18' is 0.385 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Loading schema for 'Covid_Languagev1.1-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_Languagev1.1-2020-12-04T0215-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q2
+The use of metaphorical language (e.g., metaphors of war, disease, infection, invasion, alien, decay, etc) is....
+Units: 16 Max raters: 12 Pairable values: 60
+Krippendorff alpha for 'T1.Q2' is 0.349 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q3
+How much does the exaggeration misrepresent reality?
+Units: 18 Max raters: 16 Pairable values: 70
+Krippendorff alpha for 'T1.Q3' is -0.020 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q5
+How strong is the emotional tone?
+Units: 26 Max raters: 10 Pairable values: 68
+Krippendorff alpha for 'T1.Q5' is -0.009 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q9
+How appropriate is the slang?
+Units: 14 Max raters: 8 Pairable values: 24
+Krippendorff alpha for 'T1.Q9' is 0.656 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q10
+Is the slang used to denigrate a group or perspective?
+Units: 14 Max raters: 8 Pairable values: 24
+Krippendorff alpha for 'T1.Q10' is -0.086 Alpha distance: ordinal Value domain: [1, 2, 3, 4]
+----T1.Q11
+Do the errors in the writing make understanding the text more difficult?
+Units: 12 Max raters: 6 Pairable values: 39
+Krippendorff alpha for 'T1.Q11' is 0.185 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q12
+Does the passage contain a particularly neutral, circumspect, or measured account of a frequently heated issue? If so, please offer them kudos.
+Units: 31 Max raters: 28 Pairable values: 351
+Krippendorff alpha for 'T1.Q12' is 0.099 Alpha distance: ordinal Value domain: [1, 2, 3, 4]
+----T1.Q13
+How misleading or otherwise problematic is the colorful language?
+Units: 10 Max raters: 3 Pairable values: 7
+Krippendorff alpha for 'T1.Q13' is -0.361 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q14
+How difficult was this task for you, on the whole?
+Units: 31 Max raters: 28 Pairable values: 351
+Krippendorff alpha for 'T1.Q14' is -0.014 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+----T1.Q15
+How confident are you about your answers, on the whole?
+Units: 31 Max raters: 28 Pairable values: 351
+Krippendorff alpha for 'T1.Q15' is -0.029 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Loading schema for 'Covid_Probability-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_Probabilityv1-2020-12-02T0750-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q1
+Does the text make any claims with great confidence? Highlight the relevant part.
+Units: 29 Max raters: 27 Pairable values: 237
+Krippendorff alpha for 'T1.Q1' is 0.305 Alpha distance: ordinal Value domain: [1, 2, 3]
+----T1.Q2
+To what extent does the confidence seem justified?
+Units: 21 Max raters: 21 Pairable values: 120
+Krippendorff alpha for 'T1.Q2' is 0.348 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q5
+Does the text acknowledge that their favored theory is in any way uncertain? If so, highlight the relevant section.
+Units: 29 Max raters: 27 Pairable values: 237
+Krippendorff alpha for 'T1.Q5' is 0.232 Alpha distance: ordinal Value domain: [1, 2, 3]
+----T1.Q6
+Are any numbers given?
+Units: 29 Max raters: 27 Pairable values: 237
+Krippendorff alpha for 'T1.Q6' is 0.402 Alpha distance: nominal Value domain: [1, 2, 3]
+----T1.Q7
+Since a number is given, is a comparison number (i.e. a baseline number) for a similar case given for context?
+Units: 13 Max raters: 13 Pairable values: 49
+Krippendorff alpha for 'T1.Q7' is 0.122 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5]
+----T1.Q10
+Does the text make a specific point estimate as if their probability estimate was definitely exactly right? (e.g. no “about,” “approximately,” or confidence intervals)
+Units: 13 Max raters: 13 Pairable values: 49
+Krippendorff alpha for 'T1.Q10' is 0.140 Alpha distance: ordinal Value domain: [1, 2, 3]
+----T1.Q11
+Does the text acknowledge that additional evidence might shift our understanding of the topics discussed in the article?
+Units: 29 Max raters: 27 Pairable values: 237
+Krippendorff alpha for 'T1.Q11' is 0.087 Alpha distance: ordinal Value domain: [1, 2, 3, 4]
+----T1.Q13
+How difficult was this task for you, on the whole?
+Units: 29 Max raters: 27 Pairable values: 237
+Krippendorff alpha for 'T1.Q13' is -0.010 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+----T1.Q14
+How confident are you about your answers, on the whole?
+Units: 29 Max raters: 27 Pairable values: 237
+Krippendorff alpha for 'T1.Q14' is -0.027 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Loading schema for 'Covid_Reasoning-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_Reasoningv1-2020-12-02T0750-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q4
+You selected **Identifiable Victim Effect** in Q1. Does the author acknowledge that others suffer in similar ways? If yes or maybe, highlight the relevant section.
+Units: 2 Max raters: 1 Pairable values: 0
+Krippendorff alpha for 'T1.Q4' is nan Alpha distance: nominal Value domain: [1, 2, 3]
+----T1.Q5
+You selected **Identifiable Victim Effect** in Q1. Does the author use individuals as representatives of a larger suffering group to call attention to their collective plight? If yes or maybe, highlight the relevant section.
+Units: 2 Max raters: 1 Pairable values: 0
+Krippendorff alpha for 'T1.Q5' is nan Alpha distance: nominal Value domain: [1, 2, 3]
+----T1.Q7
+How misleading is the argument?
+Units: 23 Max raters: 6 Pairable values: 60
+Krippendorff alpha for 'T1.Q7' is 0.221 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5]
+----T1.Q9
+How difficult was this task for you, on the whole?
+Units: 30 Max raters: 12 Pairable values: 187
+Krippendorff alpha for 'T1.Q9' is -0.036 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+----T1.Q10
+How confident are you about your answers, on the whole?
+Units: 30 Max raters: 12 Pairable values: 187
+Krippendorff alpha for 'T1.Q10' is -0.069 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Loading schema for 'Covid_Sources_2002_03_20v2.1-Schema.csv' for Krippendorff calculation.
+Loading 'Covid_SourceRelevancev1-2020-12-02T0751-DataHuntByCase.csv' for Krippendorff calculation.
+----T1.Q2
+Does the experience/knowledge/position of the quoted source qualify them to speak or write such claims?
+Units: 39 Max raters: 65 Pairable values: 473
+Krippendorff alpha for 'T1.Q2' is 0.467 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8]
+----T1.Q3
+Is the source anonymous or unnamed?
+Units: 39 Max raters: 65 Pairable values: 473
+Krippendorff alpha for 'T1.Q3' is 0.384 Alpha distance: nominal Value domain: [1, 2]
+----T1.Q8
+How are the quoted sources' ideas important to the article?
+Units: 39 Max raters: 65 Pairable values: 473
+Krippendorff alpha for 'T1.Q8' is 0.246 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7]
+----T1.Q9
+How difficult was this task for you, on the whole?
+Units: 39 Max raters: 65 Pairable values: 473
+Krippendorff alpha for 'T1.Q9' is -0.010 Alpha distance: nominal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+----T1.Q10
+How confident are you about your answers, on the whole?
+Units: 39 Max raters: 65 Pairable values: 473
+Krippendorff alpha for 'T1.Q10' is -0.018 Alpha distance: ordinal Value domain: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
