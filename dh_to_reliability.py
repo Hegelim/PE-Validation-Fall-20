@@ -249,7 +249,7 @@ def calculate_alphas_for_datahunt(schema_path, input_path):
     schema = load_data_hunt_schema(schema_path)
     load_data_hunt(input_path, schema)
     schema.print_alpha_per_question()
-    schema.rater_impact_on_alpha(report_threshold=0.1)
+#   schema.rater_impact_on_alpha(report_threshold=0.1)
 
 def load_data_hunt_schema(input_path):
     print("Loading schema for '{}' for Krippendorff calculation."
